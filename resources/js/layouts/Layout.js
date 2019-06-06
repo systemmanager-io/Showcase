@@ -12,6 +12,7 @@ import {
 } from "reactstrap";
 import {Link} from "react-router-dom";
 import SystemManagerNavbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default class Layout extends React.Component {
 
@@ -19,14 +20,13 @@ export default class Layout extends React.Component {
         return (
             <div>
                 <SystemManagerNavbar/>
-                <div class="container">
+                <div>
                     {this.props.children}
                 </div>
-                {/*<Footer/>*/}
+                <Footer/>
             </div>
         )
     }
-
 
 
 }

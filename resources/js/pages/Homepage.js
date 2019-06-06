@@ -7,51 +7,93 @@ export default class Homepage extends React.Component {
     render() {
 
         let settings = {
-            dots: true,
-            infinite: true,
-            slidesToShow: 1,
+            className: "center",
             centerMode: true,
-            centerPadding: '40px',
+            infinite: true,
+            centerPadding: "60px",
+            slidesToShow: 3,
+            speed: 500,
+            arrows: false,
+            dots: true,
         };
 
         return (
-            <div>
-                <h1 className="align-content-center">SystemManager</h1>
-                <h5 className="align-content-center">The best solution to manage your VPSse and Dedicated Boxes</h5>
-                <Button>Demo</Button>
-                <Button>Get started</Button>
-
-                {/*Start of Description*/}
-
-                <h2>SystemManager</h2>
-                <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes on the go. <br/>
-                    By using PHP, NodeJS, Java and Swift we built a WebPanel and a APP to monitor your VPSes<br/>
-                    SystemManager is completely customizable to suit your needs. You can turn off features you don't
-                    need.<br/>
-                </p>
-
-                {/*Start of why systemmanager*/}
-                <h2>Why SystemManager</h2>
-                {/*A few Screenshots*/}
-                <h2>Screenshots</h2>
-                <div>
-                    <Slider {...settings}>
-                        <div>
-                            <img src="http://placekitten.com/g/400/200"/>
-                        </div>
-                        <div>
-                            <img src="http://placekitten.com/g/400/200"/>
-                        </div>
-                        <div>
-                            <img src="http://placekitten.com/g/400/200"/>
-                        </div>
-                        <div>
-                            <img src="http://placekitten.com/g/400/200"/>
-                        </div>
-                    </Slider>
+            <div className="center-content">
+                <div className="showcase showcase-padding">
+                    <h1 className="align-content-center">SystemManager</h1>
+                    <h5 className="align-content-center">The best solution to manage your VPSse and Dedicated Boxes</h5>
+                    <Button>Demo</Button>
+                    <Button>Get started</Button>
                 </div>
+                <div className="showcase-padding">
+                    {/*Start of Description*/}
+
+                    <h2>SystemManager</h2>
+                    <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes on the go. <br/>
+                        By using PHP, NodeJS, Java and Swift we built a WebPanel and a APP to monitor your VPSes<br/>
+                        SystemManager is completely customizable to suit your needs. You can turn off features you don't
+                        need.<br/>
+                    </p>
+                </div>
+                {/*Start of why systemmanager*/}
+                <div className="showcase showcase-padding">
+                    <h2>Why SystemManager</h2>
+                </div>
+                {/*A few Screenshots*/}
+                <div className="showcase-padding">
+                    <h2>Screenshots</h2>
+                    <div>
+                        <Slider {...settings}>
+                            {/*<div>*/}
+                            {/*    <h3>1</h3>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <h3>2</h3>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <h3>3</h3>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <h3>4</h3>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <h3>5</h3>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <h3>6</h3>*/}
+                            {/*</div>*/}
+                            <div>
+                                <img src="https://via.placeholder.com/500x100"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/500x100"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/500x100"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/500x100"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/500x100"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/500x100"/>
+                            </div>
+                        </Slider>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 {/*Get Started and more thingies*/}
-                <h2>Get Started</h2>
+                <div className="showcase showcase-padding">
+                    <h2>Get Started</h2>
+                </div>
             </div>
         )
     }

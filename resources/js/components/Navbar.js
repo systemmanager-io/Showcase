@@ -24,20 +24,20 @@ export default class SystemManagerNavbar extends React.Component {
 
     render() {
         return (
-            <Navbar color="" light expand="md">
-                <div class="container">
+            <Navbar className="navbar-color" color="#c2185b" dark expand="md">
+                <div className="container">
                     <NavbarBrand href="/">SystemManager</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNavbar.bind(this)}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <Link class="nav-link" to="/">Home</Link>
+                                <Link className="nav-link" to="/">Home</Link>
                             </NavItem>
                             <NavItem>
-                                <Link class="nav-link" to="/demo">Demo</Link>
+                                <Link className="nav-link" to="/demo">Demo</Link>
                             </NavItem>
                             <NavItem>
-                                <Link class="nav-link" to="/pricing">Pricing</Link>
+                                <Link className="nav-link" to="/pricing">Pricing</Link>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
