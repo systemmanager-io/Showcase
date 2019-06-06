@@ -7,18 +7,31 @@
     color: white;
     width: 100%;
 }
+
 .showcase-padding {
     padding: 25px;
 }
+
 .center-content {
     align-content: center;
     text-align: center;
 }
+
 .navbar-color {
     background: $primary-dark;
 }
+
 .footer {
     background: #22292f;
     color: #ffffff;
     padding: 25px;
 }
+
+.slick-slide img {
+    display: inline;
+}
+
+.slick-current .slide-content {
+    transform: scale(1.05);
+}
+

@@ -7,13 +7,12 @@ export default class Homepage extends React.Component {
     render() {
 
         let settings = {
-            className: "center",
             centerMode: true,
             infinite: true,
-            centerPadding: "60px",
+            // centerPadding: "50px",
             slidesToShow: 3,
+            autoPlay: true,
             speed: 500,
-            arrows: false,
             dots: true,
         };
 
@@ -63,33 +62,26 @@ export default class Homepage extends React.Component {
                             {/*    <h3>6</h3>*/}
                             {/*</div>*/}
                             <div>
-                                <img src="https://via.placeholder.com/500x100"/>
+                                <img src="https://via.placeholder.com/600x500"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/500x100"/>
+                                <img src="https://via.placeholder.com/600x500"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/500x100"/>
+                                <img src="https://via.placeholder.com/600x500"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/500x100"/>
+                                <img src="https://via.placeholder.com/600x500"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/500x100"/>
+                                <img src="https://via.placeholder.com/600x500"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/500x100"/>
+                                <img src="https://via.placeholder.com/600x500"/>
                             </div>
                         </Slider>
                     </div>
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 {/*Get Started and more thingies*/}
                 <div className="showcase showcase-padding">
                     <h2>Get Started</h2>
