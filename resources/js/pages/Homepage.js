@@ -7,27 +7,23 @@ export default class Homepage extends React.Component {
     render() {
 
         let settings = {
+            className: "screenshot",
             centerMode: true,
             infinite: true,
             // centerPadding: "50px",
             slidesToShow: 3,
-            autoPlay: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
             speed: 500,
             dots: true,
         };
 
         return (
             <div className="center-content">
-                <div className="showcase showcase-padding">
-                    <h1 className="align-content-center">SystemManager</h1>
-                    <h5 className="align-content-center">The best solution to manage your VPSse and Dedicated Boxes</h5>
-                    <Button>Demo</Button>
-                    <Button>Get started</Button>
-                </div>
                 <div className="showcase-padding">
                     {/*Start of Description*/}
 
-                    <h2>SystemManager</h2>
+                    <h2>Goal of SystemManager</h2>
                     <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes on the go. <br/>
                         By using PHP, NodeJS, Java and Swift we built a WebPanel and a APP to monitor your VPSes<br/>
                         SystemManager is completely customizable to suit your needs. You can turn off features you don't
@@ -41,6 +37,7 @@ export default class Homepage extends React.Component {
                 {/*A few Screenshots*/}
                 <div className="showcase-padding">
                     <h2>Screenshots</h2>
+                    <a>Here you can see some screenshots of SystemManager</a>
                     <div>
                         <Slider {...settings}>
                             {/*<div>*/}
@@ -62,22 +59,34 @@ export default class Homepage extends React.Component {
                             {/*    <h3>6</h3>*/}
                             {/*</div>*/}
                             <div>
-                                <img src="https://via.placeholder.com/600x500"/>
+                                <img src="https://via.placeholder.com/600x400"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/600x500"/>
+                                <img src="https://via.placeholder.com/600x400"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/600x500"/>
+                                <img src="https://via.placeholder.com/600x400"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/600x500"/>
+                                <img src="https://via.placeholder.com/600x400"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/600x500"/>
+                                <img src="https://via.placeholder.com/600x400"/>
                             </div>
                             <div>
-                                <img src="https://via.placeholder.com/600x500"/>
+                                <img src="https://via.placeholder.com/600x400"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/600x400"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/600x400"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/600x400"/>
+                            </div>
+                            <div>
+                                <img src="https://via.placeholder.com/600x400"/>
                             </div>
                         </Slider>
                     </div>

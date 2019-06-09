@@ -39,11 +39,11 @@ export default class SystemManagerNavbar extends React.Component {
                             <NavItem>
                                 <Link className="nav-link" to="/pricing">Pricing</Link>
                             </NavItem>
-                            <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-                            </NavItem>
+                            {/*<NavItem>*/}
+                            {/*    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>*/}
+                            {/*</NavItem>*/}
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle aria-haspopup="Account dropdown" nav caret>
                                     Options
                                 </DropdownToggle>
                                 <DropdownMenu right>
