@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 import {Link} from "react-router-dom";
 
-export default class SystemManagerNavbar extends React.Component {
+export default class SystemManagerShowcaseNavbar extends React.Component {
 
 
     state = {
@@ -24,9 +24,9 @@ export default class SystemManagerNavbar extends React.Component {
 
     render() {
         return (
-            <Navbar className="navbar-color" color="#c2185b" dark expand="md">
+            <Navbar sticky className="navbar-color" color="#c2185b" dark expand="md">
                 <div className="container">
-                    <NavbarBrand href="/">SystemManager</NavbarBrand>
+                    <Link to="/" className="white-text navbar-brand-hover" ><NavbarBrand>SystemManager</NavbarBrand></Link>
                     <NavbarToggler onClick={this.toggleNavbar.bind(this)}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="ml-auto" navbar>
@@ -38,6 +38,9 @@ export default class SystemManagerNavbar extends React.Component {
                             </NavItem>
                             <NavItem>
                                 <Link className="nav-link" to="/pricing">Pricing</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/getstarted">Get Started</Link>
                             </NavItem>
                             {/*<NavItem>*/}
                             {/*    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>*/}
