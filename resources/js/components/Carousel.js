@@ -10,12 +10,12 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
             // centerPadding: "50px",
             slidesToShow: 3,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 8000,
             speed: 500,
             dots: true,
         };
 
-        return(
+        return (
             <Slider {...settings}>
                 {/*<div>*/}
                 {/*    <h3>1</h3>*/}
@@ -36,34 +36,28 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
                 {/*    <h3>6</h3>*/}
                 {/*</div>*/}
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/600x400"/>
-                </div>
-                <div>
-                    <img src="https://via.placeholder.com/600x400"/>
-                </div>
-                <div>
-                    <img src="https://via.placeholder.com/600x400"/>
+                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
                 </div>
             </Slider>
         )

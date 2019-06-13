@@ -46,7 +46,7 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                             {/*    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>*/}
                             {/*</NavItem>*/}
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle aria-haspopup="Account dropdown" nav caret>
+                                <DropdownToggle aria-haspopup={true} nav caret>
                                     Options
                                 </DropdownToggle>
                                 <DropdownMenu right>

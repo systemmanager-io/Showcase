@@ -1,7 +1,8 @@
 import * as React from 'react'
-import {Button} from "reactstrap";
+import {Button, Card} from "reactstrap";
 import Slider from "react-slick";
 import SystemManagerShowcaseCarousel from "../components/Carousel";
+import CardBody from "reactstrap/es/CardBody";
 
 export default class Homepage extends React.Component {
 
@@ -14,7 +15,8 @@ export default class Homepage extends React.Component {
 
                     <h2>Goal of SystemManager</h2>
                     <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes on the go. <br/>
-                        By using PHP, NodeJS, Java and Swift we built a WebPanel and a Android/iOS App to get status notifications and monitor your Servers<br/>
+                        By using PHP, NodeJS, Java and Swift we built a WebPanel and a Android/iOS App to get status
+                        notifications and monitor your Servers<br/>
                         SystemManager is completely customizable to suit your needs. You can turn off features you don't
                         need.<br/>
                     </p>
@@ -22,6 +24,38 @@ export default class Homepage extends React.Component {
                 {/*Start of why systemmanager*/}
                 <div className="showcase showcase-padding">
                     <h2>Why SystemManager</h2>
+                    <p>Why should you choose SystemManager</p>
+                    <br />
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                                <Card>
+                                    <CardBody>TEST</CardBody>
+                                </Card>
+                                <br/>
+                            </div>
+                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                                <Card>
+                                    <CardBody>TEST</CardBody>
+                                </Card>
+                                <br/>
+                            </div>
+                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                                <Card>
+                                    <CardBody>TEST</CardBody>
+                                </Card>
+                                <br/>
+                            </div>
+                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                                <Card>
+                                    <CardBody>TEST</CardBody>
+                                </Card>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 {/*A few Screenshots*/}
                 <div className="showcase-padding">
