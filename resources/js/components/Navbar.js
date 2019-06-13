@@ -24,9 +24,9 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
 
     render() {
         return (
-            <Navbar sticky className="navbar-color" color="#c2185b" dark expand="md">
+            <Navbar stick="true" className="navbar-color" color="#c2185b" dark expand="md">
                 <div className="container">
-                    <Link to="/" className="white-text navbar-brand-hover" ><NavbarBrand>SystemManager</NavbarBrand></Link>
+                    <Link to="/" className="white-text navbar-brand-hover navbar-brand">SystemManager</Link>
                     <NavbarToggler onClick={this.toggleNavbar.bind(this)}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="ml-auto" navbar>

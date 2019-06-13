@@ -4,60 +4,63 @@ import Slider from "react-slick/lib";
 export default class SystemManagerShowcaseCarousel extends React.Component {
     render() {
         let settings = {
-            className: "screenshot",
+            className: "showcase-screenshots",
             centerMode: true,
             infinite: true,
-            // centerPadding: "50px",
             slidesToShow: 3,
+            slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 8000,
             speed: 500,
             dots: true,
+            responsive: [
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
         };
 
         return (
             <Slider {...settings}>
-                {/*<div>*/}
-                {/*    <h3>1</h3>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <h3>2</h3>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <h3>3</h3>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <h3>4</h3>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <h3>5</h3>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <h3>6</h3>*/}
-                {/*</div>*/}
+                {/*<div><h1>text</h1></div>*/}
+                {/*<div><h1>text</h1></div>*/}
+                {/*<div><h1>text</h1></div>*/}
+                {/*<div><h1>text</h1></div>*/}
+                {/*<div><h1>text</h1></div>*/}
+                {/*<div><h1>text</h1></div>*/}
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
                 <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
-                </div>
-                <div>
-                    <img style={{width: "600px"}} src="http://localhost:8000/images/image.png"/>
+                    <img title="Screenshot Systemmanager"
+                         src="http://localhost:8000/images/image.png"/>
                 </div>
             </Slider>
         )

@@ -1,5 +1,4 @@
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+
 @import "variables";
 
 .showcase {
@@ -9,7 +8,7 @@
 }
 
 .showcase-padding {
-    padding:  25px 0 25px 0 ;
+    padding: 25px;
 }
 
 .center-content {
@@ -27,23 +26,31 @@
     padding: 25px;
 }
 
-.slick-slide img {
-    display: inline;
-}
-
-.screenshot {
-    align-content: center;
-}
-
-.screenshot .slick-slide {
+.showcase-screenshots .slick-slide {
     -webkit-transform: scale(.7);
     position: relative;
     transform: scale(.7);
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    display: block;
 }
 
-.screenshot .slick-current {
-    -webkit-transform: scale(1);
+.showcase-screenshots .slick-slide.slick-center {
+    -webkit-transformZ: scale(1);
+    transformZ: scale(1);
+    z-index: 10
+}
+
+.showcase-screenshots .slick-slide img {
+    max-width: 20rem
+}
+
+@media (min-width: 768px) {
+    .showcase-screenshots .slick-slide img {
+        max-width: 60rem
+    }
+}
+
+.showcase-screenshots .slick-current {
     transform: scale(1);
     z-index: 10
 }
@@ -54,6 +61,7 @@
     background: $primary;
     border-color: #ffffff;
 }
+
 .top-buttons:hover {
     background: #ffffff;
     border-color: #ffffff;
@@ -73,3 +81,6 @@
 .navbar-brand-hover:hover {
     color: $primary-light;
 }
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
