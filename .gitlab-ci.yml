@@ -21,7 +21,7 @@ deploy_staging:
     - composer install
     - npm run production
     - ls
-    - rsync -airzP "$PWD" root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/*
+    - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
   environment:
     name: staging
     url: https://systemmanager.genericdevelopment.nl
