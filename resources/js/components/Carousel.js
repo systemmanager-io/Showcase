@@ -1,5 +1,6 @@
 import * as React from "react";
 import Slider from "react-slick/lib";
+import {panelUrl} from "../config"
 
 export default class SystemManagerShowcaseCarousel extends React.Component {
     render() {
@@ -38,47 +39,47 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
                 {/*<div><h1>text</h1></div>*/}
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
             </Slider>
         )

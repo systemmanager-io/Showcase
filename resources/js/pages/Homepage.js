@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import SystemManagerShowcaseCarousel from "../components/Carousel";
 import CardBody from "reactstrap/es/CardBody";
 import {Link} from "react-router-dom";
+import {panelUrl} from "../config"
 
 export default class Homepage extends React.Component {
 
@@ -26,7 +27,7 @@ export default class Homepage extends React.Component {
                         </p>
 
                         <img className="col-sm-12 col-md-9 col-9 col-lg-12" title="Screenshot Systemmanager"
-                             src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                             src={panelUrl + "/images/image.png"}/>
                     </div>
                 </div>
                 {/*Start of why systemmanager*/}
