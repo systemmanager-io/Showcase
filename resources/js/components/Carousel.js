@@ -38,31 +38,47 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
                 {/*<div><h1>text</h1></div>*/}
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
                 <div>
                     <img title="Screenshot Systemmanager"
-                         src="http://localhost:8000/images/image.png"/>
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                </div>
+                <div>
+                    <img title="Screenshot Systemmanager"
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                </div>
+                <div>
+                    <img title="Screenshot Systemmanager"
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                </div>
+                <div>
+                    <img title="Screenshot Systemmanager"
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
+                </div>
+                <div>
+                    <img title="Screenshot Systemmanager"
+                         src={process.env.MIX_APP_URL + "/images/image.png"}/>
                 </div>
             </Slider>
         )

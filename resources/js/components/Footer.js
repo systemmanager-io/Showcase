@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Link} from "react-router-dom";
 
 export default class Footer extends React.Component {
 
@@ -26,9 +27,11 @@ export default class Footer extends React.Component {
                         </div>
                         <div className="col-sm-12 col-md-3 col-3">
                             <div className="col-md-4">
-                                <img style={{width: "20rem"}}
-                                     src="http://localhost:8000/images/discord_logo.png"
-                                     alt="Click here to enter our discord for support"/>
+                                <a href="https://discord.gg/3QFPwgS">
+                                    <img style={{width: "20rem"}}
+                                         src={process.env.MIX_APP_URL + "/images/discord_logo.png"}
+                                         alt="Click here to enter our discord for support"/>
+                                </a>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12">
