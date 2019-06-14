@@ -5,7 +5,7 @@ before_script:
   - chmod 700 ~/.ssh/id_rsa
   - eval "$(ssh-agent -s)"
   - ssh-add ~/.ssh/id_rsa
-  - ssh-keyscan -H 'nl-ams1-02.genericdevelopment.nl' >> ~/.ssh/known_hosts
+  - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
 
 image: awhalen/docker-php-composer-node
 
