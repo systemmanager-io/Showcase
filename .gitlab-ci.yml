@@ -1,3 +1,5 @@
+image: docker-php-composer-node:latest
+
 stages:
   - deploy
 
