@@ -13,4 +13,5 @@ const mix = require('laravel-mix');
 
 mix.react('resources/js/index.js', 'public/js')
    .sass('resources/sass/showcase.scss', 'public/css')
+   .sass('resources/sass/tailwind.scss', 'public/css')
    .sass('resources/sass/app.scss', 'public/css');

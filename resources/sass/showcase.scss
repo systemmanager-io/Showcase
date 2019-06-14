@@ -86,6 +86,10 @@
     display: inline;
 }
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
