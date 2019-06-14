@@ -1,4 +1,5 @@
 before_script:
+  - echo $CI_JOB_STAGE
   - mkdir -p ~/.ssh
   - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
   - chmod 700 ~/.ssh/id_rsa
