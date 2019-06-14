@@ -5,6 +5,7 @@ import Showcase from "./pages/Showcase";
 import Demo from "./pages/Demo";
 import Pricing from "./pages/Pricing";
 import Layout from "./layouts/Layout";
+import "."
 // import Dashboard from "./pages/dashboard/dashboard";
 //
 // import AdminLayout from "./layouts/AdminLayout";
