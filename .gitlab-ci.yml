@@ -10,6 +10,7 @@ deploy_staging:
     - ls
     - npm install
     - composer install
+    - npm run production
     - ls
   environment:
     name: staging
