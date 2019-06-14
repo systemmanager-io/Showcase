@@ -7,6 +7,10 @@ deploy_staging:
   stage: deploy
   script:
     - echo "Deploying to staging."
+    - ls
+    - npm install
+    - composer install
+    - ls
   environment:
     name: staging
     url: https://systemmanager.genericdevelopment.nl
@@ -16,7 +20,7 @@ deploy_staging:
 deploy_prod:
   stage: deploy
   script:
-    - echo "Deploy to production server"
+    - echo "Deploy to production."
   environment:
     name: production
     url: https://systemmanager.io
