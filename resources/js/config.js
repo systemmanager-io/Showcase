@@ -1,1 +1,1 @@
-export let panelUrl = "https://systemanager.genericdevelopment.nl";
+export let panelUrl = "https://systemmanager.genericdevelopment.nl";
