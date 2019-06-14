@@ -1,0 +1,23 @@
+stages:
+  - deploy
+
+deploy_staging:
+  stage: deploy
+  script:
+    - echo "Deploying to staging."
+  environment:
+    name: staging
+    url: https://systemmanager.genericdevelopment.nl
+  only:
+    - master
+
+deploy_prod:
+  stage: deploy
+  script:
+    - echo "Deploy to production server"
+  environment:
+    name: production
+    url: https://systemmanager.io
+  when: manual
+  only:
+    - master
