@@ -9,6 +9,13 @@ before_script:
 
 image: awhalen/docker-php-composer-node
 
+cache:
+  key: "SystemManager-Showcase-Staging"
+  paths:
+  - "node_modules/"
+  - "vendor/"
+
+
 stages:
   - deploy
 
