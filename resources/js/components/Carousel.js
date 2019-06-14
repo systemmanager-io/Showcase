@@ -8,6 +8,8 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
             centerMode: true,
             infinite: true,
             slidesToShow: 3,
+            centerPadding: "50px",
+
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 8000,
