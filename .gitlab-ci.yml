@@ -1,4 +1,4 @@
-image: amwhalen/docker-php-composer-node:latest
+image: amwhalen/docker-php-composer-node
 
 stages:
   - deploy
