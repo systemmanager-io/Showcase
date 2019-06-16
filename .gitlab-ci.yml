@@ -28,6 +28,7 @@ build:
     - npm install
     - composer install
     - npm run production
+    - rm .git -rf
   artifacts:
     paths:
       - './'
@@ -47,9 +48,7 @@ deploy_staging:
     url: https://systemmanager.genericdevelopment.nl
   only:
     - master
-  artifacts:
-    paths:
-      - './'
+
 
 deploy_prod:
   stage: production
