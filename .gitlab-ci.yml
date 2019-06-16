@@ -18,8 +18,14 @@ cache:
 
 stages:
   - build
+  - test
   - staging
   - production
+
+test:
+  stage: test
+  script:
+    - echo "No tests are defined yet"
 
 build:
   stage: build
@@ -27,8 +33,6 @@ build:
     - npm install
     - composer install
     - npm run production
-  environment:
-    name: staging
 
 deploy_staging:
   stage: staging
