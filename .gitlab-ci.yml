@@ -31,7 +31,7 @@ build:
     name: staging
 
 deploy_staging:
-  stage: production
+  stage: staging
   script:
     - echo "Deploying to staging."
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
