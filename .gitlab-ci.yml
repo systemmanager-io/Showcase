@@ -12,22 +12,25 @@ image: awhalen/docker-php-composer-node
 cache:
   key: "SystemManager-Showcase-Staging"
   paths:
-  - "node_modules/"
-  - "vendor/"
+    - "node_modules/"
+    - "vendor/"
 
 
 stages:
+  - build
   - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Deploying to staging."
+    - npm install
+    - composer install
+    - npm run development
 
 deploy_staging:
   stage: deploy
   script:
-    - echo "Deploying to staging."
-    - ls
-    - npm install
-    - composer install
-    - npm run production
-    - ls
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
   environment:
     name: staging
