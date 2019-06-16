@@ -18,17 +18,20 @@ cache:
 
 stages:
   - build
-  - deploy
+  - staging
+  - production
 
 build:
   stage: build
   script:
     - npm install
     - composer install
-    - npm run development
+    - npm run production
+  environment:
+    name: staging
 
 deploy_staging:
-  stage: deploy
+  stage: production
   script:
     - echo "Deploying to staging."
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
@@ -39,7 +42,7 @@ deploy_staging:
     - master
 
 deploy_prod:
-  stage: deploy
+  stage: production
   script:
     - echo "Deploy to production."
   environment:
