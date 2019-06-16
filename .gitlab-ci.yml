@@ -22,17 +22,20 @@ stages:
   - staging
   - production
 
-test:
-  stage: test
-  script:
-    - echo "No tests are defined yet"
-
 build:
   stage: build
   script:
     - npm install
     - composer install
     - npm run production
+  artifacts:
+    paths:
+      - './'
+
+test:
+  stage: test
+  script:
+    - echo "No tests are defined yet"
 
 deploy_staging:
   stage: staging
@@ -44,6 +47,9 @@ deploy_staging:
     url: https://systemmanager.genericdevelopment.nl
   only:
     - master
+  artifacts:
+    paths:
+      - './'
 
 deploy_prod:
   stage: production
