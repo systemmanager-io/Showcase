@@ -18,7 +18,7 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
             dots: true,
             responsive: [
                 {
-                    breakpoint: 480,
+                    breakpoint: 768,
                     settings: {
                         arrows: false,
                         centerMode: true,
