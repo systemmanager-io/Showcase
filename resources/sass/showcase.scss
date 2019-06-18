@@ -47,9 +47,16 @@
 
 @media (min-width: 768px) {
     .showcase-screenshots .slick-slide img {
+        max-width: 40rem
+    }
+}
+
+@media (min-width: 1366px) {
+    .showcase-screenshots .slick-slide img {
         max-width: 60rem
     }
 }
+
 
 .showcase-screenshots .slick-current {
     transform: scale(1);
