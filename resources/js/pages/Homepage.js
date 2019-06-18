@@ -38,37 +38,37 @@ export default class Homepage extends React.Component {
 
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
                                     <CardBody>TEST</CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
                                     <CardBody>TEST</CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
                                     <CardBody>TEST</CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
                                     <CardBody>TEST</CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
                                     <CardBody>TEST</CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-sm-12 col-md-6 col-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
                                     <CardBody>TEST</CardBody>
                                 </Card>
