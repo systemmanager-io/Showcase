@@ -9,18 +9,40 @@ export default class Demo extends React.Component {
                 <h5>This demo has certain features disabled and stuff hidden</h5>
                 <hr />
                 <div className="container">
-                <div className="row">
-                    <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                        <Card>
-                            <CardBody>
-                                <h5>Demo Login</h5>
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                            <Card>
+                                <CardBody>
+                                    <h5>Demo User Login</h5>
 
 
-                                <Button>Enter the demo!</Button>
+                                    <Button>Enter the demo as a user</Button>
 
-                            </CardBody>
-                        </Card>
-                    </div>
+                                </CardBody>
+                            </Card>
+                        </div>
+                        <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                            <Card>
+                                <CardBody>
+                                    <h5>Demo User Login</h5>
+
+
+                                    <Button>Enter the demo as a user</Button>
+
+                                </CardBody>
+                            </Card>
+                        </div>
+                        <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                            <Card>
+                                <CardBody>
+                                    <h5>Demo Admin Login</h5>
+
+
+                                    <Button>Enter the demo as a user</Button>
+
+                                </CardBody>
+                            </Card>
+                        </div>
                     </div>
                 </div>
             </div>
