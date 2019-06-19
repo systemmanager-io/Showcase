@@ -20,6 +20,7 @@ export default class Demo extends React.Component {
 
                                 </CardBody>
                             </Card>
+                            <br />
                         </div>
                         <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
                             <Card>
@@ -31,6 +32,7 @@ export default class Demo extends React.Component {
 
                                 </CardBody>
                             </Card>
+                            <br />
                         </div>
                         <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
                             <Card>
@@ -42,6 +44,7 @@ export default class Demo extends React.Component {
 
                                 </CardBody>
                             </Card>
+                            <br />
                         </div>
                     </div>
                 </div>
