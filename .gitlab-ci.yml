@@ -1,12 +1,3 @@
-before_script:
-  - echo $CI_JOB_STAGE
-  - mkdir -p ~/.ssh
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-  - chmod 700 ~/.ssh/id_rsa
-  - eval "$(ssh-agent -s)"
-  - ssh-add ~/.ssh/id_rsa
-  - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
-
 image: awhalen/docker-php-composer-node
 
 cache:
@@ -40,6 +31,14 @@ test:
 
 deploy_staging:
   stage: staging
+  before_script:
+    - echo $CI_JOB_STAGE
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 700 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
   script:
     - echo "Deploying to staging."
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/staging/systemmanager_showcase; php artisan down --message "Deploying Update"'
@@ -54,6 +53,14 @@ deploy_staging:
 
 deploy_prod:
   stage: production
+  before_script:
+    - echo $CI_JOB_STAGE
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 700 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
   script:
     - echo "Deploy to production."
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
