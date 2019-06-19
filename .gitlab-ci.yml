@@ -25,8 +25,8 @@ stages:
 build:
   stage: build
   script:
-    - npm install
-    - composer install
+    - npm install --no-dev
+    - composer install --no-dev
     - npm run production
     - rm .git -rf
   artifacts:
@@ -41,8 +41,10 @@ test:
 deploy_staging:
   stage: staging
   script:
-    - echo "Deploying to staging."
-    - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging/systemmanager_showcase/
+    - echo "Deploying to staging.
+    - ssh root@nl-ams1-01.genericdevelopment.nl /var/www/staging/systemmanager_showcase/php artisan down --message "Deploying Update"
+    - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging/systemmanager_showcase
+    - ssh root@nl-ams1-01.genericdevelopment.nl /var/www/staging/systemmanager_showcase/php artisan up
   environment:
     name: staging
     url: https://systemmanager.genericdevelopment.nl
