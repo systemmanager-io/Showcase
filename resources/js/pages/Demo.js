@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Button, Card} from "reactstrap";
+import {Button, Card, CardBody} from "reactstrap";
 
 export default class Demo extends React.Component {
     render() {
