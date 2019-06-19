@@ -24,7 +24,7 @@ export default class Demo extends React.Component {
                         <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
                             <Card>
                                 <CardBody>
-                                    <h5>Demo User Login</h5>
+                                    <h5>Demo Status Page</h5>
 
 
                                     <Button>Enter the demo as a user</Button>
