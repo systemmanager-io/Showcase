@@ -41,7 +41,7 @@ test:
 deploy_staging:
   stage: staging
   script:
-    - echo "Deploying to staging.
+    - echo "Deploying to staging."
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/staging/systemmanager_showcase; php artisan down --message "Deploying Update"'
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging/systemmanager_showcase
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/staging/systemmanager_showcase; php artisan up'
