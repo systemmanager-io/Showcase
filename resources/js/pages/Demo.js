@@ -16,7 +16,7 @@ export default class Demo extends React.Component {
                                     <h5>Demo Status Page</h5>
 
 
-                                    <Button>Enter the demo as a user</Button>
+                                    <Button>Look at the status page</Button>
 
                                 </CardBody>
                             </Card>
@@ -40,7 +40,7 @@ export default class Demo extends React.Component {
                                     <h5>Demo Admin Login</h5>
 
 
-                                    <Button>Enter the demo as a user</Button>
+                                    <Button>Enter the demo as an admin <Button>
 
                                 </CardBody>
                             </Card>
