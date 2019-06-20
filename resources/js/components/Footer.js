@@ -16,8 +16,7 @@ export default class Footer extends React.Component {
                             <br/>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra luctus purus, ut fringilla mauris dictum sed. Morbi eget risus sodales, finibus justo vitae, interdum ex. Curabitur in rhoncus magna. Proin rutrum at elit in elementum. Nunc viverra porttitor varius. Donec semper odio mi, nec ullamcorper felis faucibus vitae. Praesent nec tempor diam, at tempor risus. Donec et pretium mi.
-                                Fusce pellentesque, ipsum eu posuere pretium, mi diam commodo metus, vel hendrerit leo nisl nec dui. Morbi pellentesque facilisis sapien quis sagittis. Phasellus dapibus, arcu mattis accumsan pulvinar, quam tellus auctor nisl, venenatis blandit nisl lacus at quam.</p>
+                            <p>There are a lot of options to monitor your server(s). Some of them do not have the features you want. SystemManager tries to solve this for you! By letting you decide what kind of features you want to enable, you can even turn off the automatic pinger. </p>
                             <br/>
 
                         </div>
