@@ -40,19 +40,19 @@ export default class Homepage extends React.Component {
                         <div className="row">
                             <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
-                                    <CardBody>TEST</CardBody>
+                                    <CardBody>Security</CardBody>
                                 </Card>
                                 <br/>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
-                                    <CardBody>TEST</CardBody>
+                                    <CardBody>User Friendly</CardBody>
                                 </Card>
                                 <br/>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                                 <Card>
-                                    <CardBody>TEST</CardBody>
+                                    <CardBody>Native Apps</CardBody>
                                 </Card>
                                 <br/>
                             </div>
