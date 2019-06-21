@@ -14,8 +14,8 @@ export default class Layout extends React.Component {
                 {this.props.children}
                 <Footer/>
 
-                ${location.hostname == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
-                ${location.hostname == "localhost" ? <DevelopmentBubble/> : null}
+                {location.hostname == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
+                {location.hostname == "localhost" ? <DevelopmentBubble/> : null}
             </div>
         )
     }
