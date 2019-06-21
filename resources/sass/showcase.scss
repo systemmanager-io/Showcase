@@ -69,6 +69,7 @@
     font-size: 1.5em;
     background: $primary;
     border-color: #ffffff;
+    color: #ffffff;
 }
 
 .top-buttons:hover {
@@ -77,11 +78,6 @@
     color: $primary;
 }
 
-//.top-buttons: {
-//    background: #ffffff;
-//    border-color: #ffffff;
-//    color: $primary;
-//}
 
 .white-text {
     color: $white;
@@ -106,6 +102,8 @@ li {
     color: white;
     padding: 10px 15px;
     bottom: 0;
+    transition: width 2s;
+    width: 100%;
 }
 
 .liveButton {
