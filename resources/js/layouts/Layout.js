@@ -3,10 +3,17 @@ import SystemManagerShowcaseNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import SystemManagerShowcaseTopBar from "../components/TopBar";
 import StagingBubble from "../components/StagingBubble";
+import DevelopmentBubble from "../components/DevelopmentBubble";
 
 export default class Layout extends React.Component {
 
+
+
     render() {
+
+        console.log(location.hostname)
+
+
         return (
             <div>
                 <SystemManagerShowcaseNavbar/>
@@ -14,7 +21,8 @@ export default class Layout extends React.Component {
                 {this.props.children}
                 <Footer/>
 
-                ${window.document.documentURI == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
+                ${location.hostname == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
+                ${location.hostname == "localhost" ? <DevelopmentBubble/> : null}
             </div>
         )
     }
