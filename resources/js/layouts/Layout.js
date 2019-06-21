@@ -6,14 +6,7 @@ import StagingBubble from "../components/StagingBubble";
 import DevelopmentBubble from "../components/DevelopmentBubble";
 
 export default class Layout extends React.Component {
-
-
-
     render() {
-
-        console.log(location.hostname)
-
-
         return (
             <div>
                 <SystemManagerShowcaseNavbar/>
@@ -26,6 +19,4 @@ export default class Layout extends React.Component {
             </div>
         )
     }
-
-
 }
