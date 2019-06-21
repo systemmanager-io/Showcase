@@ -106,17 +106,21 @@ li {
     width: 100%;
 }
 
-.liveButton {
+.systemManagerButton {
     margin: 5px;
     padding: 10px 25px 10px 25px;
     background: $primary;
-    color: white;
+    color: #ffffff;
 }
 
-.liveButton:hover {
+.systemManagerButton:hover {
     background: #ffffff;
     border-color: #ffffff;
     color: $primary;
+}
+
+.systemManagerButton-border {
+    border-color: $primary;
 }
 
 
