@@ -5,7 +5,12 @@ export default class DevelopmentBubble extends React.Component {
 
     render() {
         return (
-            <div className="stagingBubble">You are viewing the Development area</div>
+            <div className="center-content stagingBubble">
+                <a>You are viewing the Development area</a>
+                <br/>
+                <a className="btn liveButton" href="https://systemmanager.io">Looking for systemmanager.io?</a>
+
+            </div>
         )
     }
 }

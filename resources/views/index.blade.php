@@ -7,7 +7,7 @@
         <meta name="theme-color" content="#8c0032">
 
         <meta property="og:title" content="SystemManager">
-        <meta property="og:description" content="The all in one Server management system!">
+        <meta property="og:description" content="The all in one server management system!">
         <meta property="og:url" content="https://systemmanager.io">
 
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">

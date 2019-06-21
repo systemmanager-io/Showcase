@@ -102,11 +102,25 @@ li {
 
 .stagingBubble {
     position: fixed;
-    background-color: rgb(0,0,0,0.75);
+    background-color: rgb(0, 0, 0, 0.75);
     color: white;
     padding: 10px 15px;
     bottom: 0;
 }
+
+.liveButton {
+    margin: 5px;
+    padding: 10px 25px 10px 25px;
+    background: $primary;
+    color: white;
+}
+
+.liveButton:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: $primary;
+}
+
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
