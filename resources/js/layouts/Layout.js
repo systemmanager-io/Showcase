@@ -13,7 +13,8 @@ export default class Layout extends React.Component {
                 <SystemManagerShowcaseTopBar/>
                 {this.props.children}
                 <Footer/>
-                <StagingBubble/>
+
+                ${window.document.documentURI == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
             </div>
         )
     }
