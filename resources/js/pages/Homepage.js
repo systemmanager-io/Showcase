@@ -5,6 +5,7 @@ import SystemManagerShowcaseCarousel from "../components/Carousel";
 import CardBody from "reactstrap/es/CardBody";
 import {Link} from "react-router-dom";
 import {panelUrl} from "../config"
+import HighlightedFeatures from "../components/HighlightedFeatures";
 
 export default class Homepage extends React.Component {
 
@@ -33,49 +34,10 @@ export default class Homepage extends React.Component {
                 {/*Start of why systemmanager*/}
                 <div className="showcase showcase-padding">
                     <h2>Why SystemManager</h2>
-                    <p>Why should you choose SystemManager</p>
+                    <p>Why you should choose SystemManager</p>
                     <br/>
 
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                                <Card>
-                                    <CardBody>Security</CardBody>
-                                </Card>
-                                <br/>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                                <Card>
-                                    <CardBody>User Friendly</CardBody>
-                                </Card>
-                                <br/>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                                <Card>
-                                    <CardBody>Native Apps</CardBody>
-                                </Card>
-                                <br/>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                                <Card>
-                                    <CardBody>TEST</CardBody>
-                                </Card>
-                                <br/>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                                <Card>
-                                    <CardBody>TEST</CardBody>
-                                </Card>
-                                <br/>
-                            </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                                <Card>
-                                    <CardBody>TEST</CardBody>
-                                </Card>
-                                <br/>
-                            </div>
-                        </div>
-                    </div>
+                    <HighlightedFeatures/>
 
                 </div>
                 {/*A few Screenshots*/}
