@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
         return (
             <div>
                 <SystemManagerShowcaseNavbar/>
-                <SystemManagerShowcaseTopBar/>
+                {/*<SystemManagerShowcaseTopBar/>*/}
                 {this.props.children}
                 <Footer/>
 
