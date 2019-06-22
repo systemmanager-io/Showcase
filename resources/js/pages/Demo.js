@@ -28,7 +28,7 @@ export default class Demo extends React.Component {
                                     <h5>Demo User Login</h5>
 
 
-                                    <a className="btn systemManagerButton">Enter the demo as a user</a>
+                                    <a className="btn systemManagerButton systemManagerButton-border">Enter the demo as a user</a>
 
                                 </CardBody>
                             </Card>
@@ -40,7 +40,7 @@ export default class Demo extends React.Component {
                                     <h5>Demo Admin Login</h5>
 
 
-                                    <a className="btn systemManagerButton">Enter the demo as an admin</a>
+                                    <a className="btn systemManagerButton systemManagerButton-border">Enter the demo as an admin</a>
 
                                 </CardBody>
                             </Card>

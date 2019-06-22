@@ -106,21 +106,33 @@ li {
     //width: 100%;
 }
 
+@media (max-width: 768px) {
+    .stagingBubble {
+        width: 100%;
+    }
+}
+
 .systemManagerButton {
     margin: 5px;
     padding: 10px 25px 10px 25px;
     background: $primary;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .systemManagerButton:hover {
     background: #ffffff;
     border-color: #ffffff;
-    color: $primary;
+    color: $primary !important;
 }
 
 .systemManagerButton-border {
     border-color: $primary;
+    color: #ffffff;
+}
+
+.systemManagerButton-border:hover {
+    border-color: $primary;
+    color: #ffffff;
 }
 
 
