@@ -19,3 +19,6 @@ mix.react('resources/js/index.js', 'public/js')
     processCssUrls: false,
     postCss: [tailwindcss('./tailwind.config.js')]
 });
+if (mix.inProduction()) {
+    mix.version();
+}
