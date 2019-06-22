@@ -25,6 +25,6 @@
 <div id="systemmanager-showcase"></div>
 
 <!-- Scripts -->
-<script src="{{ mix('/js/index.js') }} }}"></script>
+<script src="{{ mix('/js/index.js') }}"></script>
 </body>
 </html>
