@@ -1,7 +1,7 @@
 image: awhalen/docker-php-composer-node
 
 cache:
-  key: "SystemManager-Showcase-Staging"
+  key: "SystemManager-Showcase"
   paths:
     - "node_modules/"
     - "vendor/"
