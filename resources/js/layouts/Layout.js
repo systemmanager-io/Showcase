@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
                 <Footer/>
 
                 {location.hostname == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
-                {location.hostname == "localhost" ? <DevelopmentBubble/> : null}
+                {location.hostname == "localhost" || location.hostname == "127.0.0.1" ? <DevelopmentBubble/> : null}
             </div>
         )
     }
