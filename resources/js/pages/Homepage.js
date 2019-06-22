@@ -54,7 +54,9 @@ export default class Homepage extends React.Component {
                         <h2>Get Started</h2>
                         <a>Ready to manage your systems?</a>
                         <br/>
-                        <Link to="/getstarted"><Button className="top-buttons">Get started!</Button></Link>
+                        <Link to="/getstarted" className="btn systemManagerButton top-buttons">Demo</Link>
+                        <Link to="/documentation/getstarted" className="btn systemManagerButton top-buttons">Get started</Link>
+                        <Link to="/documentation/about" className="btn systemManagerButton top-buttons">About The Project</Link>
                     </div>
                 </div>
             </div>

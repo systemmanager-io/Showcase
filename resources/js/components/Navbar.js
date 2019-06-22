@@ -40,7 +40,7 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                                 <Link className="nav-link" to="/pricing">Pricing</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/getstarted">Get Started</Link>
+                                <Link className="nav-link" to="/documentation/getstarted">Get Started</Link>
                             </NavItem>
                             {/*<NavItem>*/}
                             {/*    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>*/}
