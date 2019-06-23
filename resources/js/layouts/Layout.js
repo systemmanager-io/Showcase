@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import SystemManagerShowcaseTopBar from "../components/TopBar";
 import StagingBubble from "../components/StagingBubble";
 import DevelopmentBubble from "../components/DevelopmentBubble";
+import ProductionBubble from "../components/ProductionBubble";
 
 export default class Layout extends React.Component {
     render() {
@@ -14,6 +15,7 @@ export default class Layout extends React.Component {
                 {this.props.children}
                 <Footer/>
 
+                <ProductionBubble/>
                 {location.hostname == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
                 {location.hostname == "localhost" || location.hostname == "127.0.0.1" ? <DevelopmentBubble/> : null}
             </div>

@@ -6,20 +6,22 @@ import Pricing from "./pages/Pricing";
 import Layout from "./layouts/Layout";
 import "."
 import NotFound from "./pages/NotFound";
+import Documentation from "./pages/Documentation";
 
 class App extends React.Component {
+
 
     render() {
         return (
             <Layout>
                 <Switch>
                     <Route exact path="/" component={Homepage}/>
-                    <Route exact path="/demo" component={Demo}/>
-                    <Route exact path="/pricing" component={Pricing}/>
-                    {/*<Route exact path="/login" component={Homepage}/>*/}
+                    <Route path="/demo" component={Demo}/>
+                    <Route path="/pricing" component={Pricing}/>
+                    <Route path="/documentation" component={Documentation}/>
                     {/*<Route exact path="/register" component={Homepage}/>*/}
                     {/*<Route exact path="/cart" component={Homepage}/>*/}
-                    <Route path="" exact component={NotFound}/>
+                    <Route component={NotFound}/>
                 </Switch>
             </Layout>
         );

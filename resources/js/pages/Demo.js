@@ -18,7 +18,7 @@ export default class Demo extends React.Component {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <Card>
                                     <CardBody>
-                                        <h5>Demo Status Page</h5>
+                                        <h3>Demo Status Page</h3>
                                         <hr/>
 
 
@@ -33,10 +33,16 @@ export default class Demo extends React.Component {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <Card>
                                     <CardBody>
-                                        <h5>Demo User Login</h5>
+                                        <h3>Demo User Login</h3>
                                         <hr/>
-
-
+                                        The account credentials for user "user"
+                                        <br/>
+                                        <br/>
+                                        <div className="demoCredentials">
+                                            User: user<br/>
+                                            Password: password<br/>
+                                        </div>
+                                        <br/>
                                         <a href="https://demo.systemmanager.io"
                                            className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as a user</a>
@@ -48,10 +54,16 @@ export default class Demo extends React.Component {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <Card>
                                     <CardBody>
-                                        <h5>Demo Admin Login</h5>
+                                        <h3>Demo Admin Login</h3>
                                         <hr/>
-
-
+                                        The account credentials for user "admin"
+                                        <br/>
+                                        <br/>
+                                        <div className="demoCredentials">
+                                            User: admin<br/>
+                                            Password: password<br/>
+                                        </div>
+                                        <br/>
                                         <a href="https://demo.systemmanager.io"
                                            className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as an admin</a>
