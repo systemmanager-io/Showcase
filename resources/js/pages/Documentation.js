@@ -1,6 +1,10 @@
 import * as React from "react";
 import {Fragment} from "react";
 import {Link, Route, Switch} from "react-router-dom";
+import Daemon from "./documentation/Daemon";
+import Panel from "./documentation/Panel";
+import Project from "./documentation/Project";
+import Start from "./documentation/panel/Start";
 
 export default class Documentation extends React.Component {
 
@@ -13,19 +17,19 @@ export default class Documentation extends React.Component {
             <Fragment>
 
                 <p>
-                    <Link to="/documentation/">welcome</Link><br />
-                    <Link to="/documentation/1">1</Link><br />
-                    <Link to="/documentation/2">2</Link><br />
-                    <Link to="/documentation/3">3</Link>
+                    <Link to="/documentation/">Home</Link><br />
+                    <Link to="/documentation/project">Project</Link><br />
+                    <Link to="/documentation/panel">Panel</Link><br />
+                    <Link to="/documentation/daemon">Daemon</Link>
 
 
                 </p>
 
                 <Switch>
-                    <Route exact path={this.makeUrl('/')} component={welcome}/>
-                    <Route path={this.makeUrl('/1')} component={page1}/>
-                    <Route path={this.makeUrl('/2')} component={page2}/>
-                    <Route path={this.makeUrl('/3')} component={page3}/>
+                    <Route exact path={this.makeUrl('/')} component={Start}/>
+                    <Route path={this.makeUrl('/project')} component={Project}/>
+                    <Route path={this.makeUrl('/panel')} component={Panel}/>
+                    <Route path={this.makeUrl('/daemon')} component={Daemon}/>
                 </Switch>
 
             </Fragment>
