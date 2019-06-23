@@ -11,6 +11,10 @@ import SystemManagerShowcaseTopBar from "../components/TopBar";
 
 export default class Homepage extends React.Component {
 
+    openImageDialog() {
+        console.log("yeet");
+    }
+
     render() {
 
         return (
@@ -33,7 +37,7 @@ export default class Homepage extends React.Component {
                                 need.<br/>
                             </p>
 
-                            <img className="col-sm-12 col-md-9 col-9 col-lg-12" title="Screenshot Systemmanager"
+                            <img onClick={this.openImageDialog} className="col-sm-12 col-md-9 col-9 col-lg-12" title="Screenshot Systemmanager"
                                  src={panelUrl + "/images/image.png"}/>
                         </div>
                     </div>
@@ -60,7 +64,7 @@ export default class Homepage extends React.Component {
                             <h2>Get Started</h2>
                             <a>Ready to manage your systems?</a>
                             <br/>
-                            <Link to="/getstarted" className="btn systemManagerButton top-buttons">Demo</Link>
+                            <Link to="/demo" className="btn systemManagerButton top-buttons">Demo</Link>
                             <Link to="/documentation/getstarted" className="btn systemManagerButton top-buttons">Get
                                 started</Link>
                             <Link to="/documentation/about" className="btn systemManagerButton top-buttons">About

@@ -27,42 +27,6 @@
     padding: 25px;
 }
 
-.showcase-screenshots .slick-slide {
-    -webkit-transform: scale(.7);
-    position: relative;
-    transform: scale(.7);
-    transition: all .5s ease-in-out;
-    display: block;
-}
-
-.showcase-screenshots .slick-slide.slick-center {
-    -webkit-transformZ: scale (1);
-    transformZ: scale (1);
-    z-index: 10
-}
-
-.showcase-screenshots .slick-slide img {
-    max-width: 20rem
-}
-
-@media (min-width: 768px) {
-    .showcase-screenshots .slick-slide img {
-        max-width: 40rem
-    }
-}
-
-@media (min-width: 1366px) {
-    .showcase-screenshots .slick-slide img {
-        max-width: 60rem
-    }
-}
-
-
-.showcase-screenshots .slick-current {
-    transform: scale(1);
-    z-index: 10
-}
-
 .top-buttons {
     margin: 5px;
     padding: 10px 25px 10px 25px;
@@ -85,10 +49,6 @@
 
 .navbar-brand-hover:hover {
     color: $primary-light;
-}
-
-.slick-slide img {
-    display: inline;
 }
 
 li {
@@ -135,5 +95,3 @@ li {
     color: #ffffff;
 }
 
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";

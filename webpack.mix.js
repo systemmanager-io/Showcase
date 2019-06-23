@@ -15,6 +15,7 @@ const tailwindcss = require('tailwindcss');
 mix.react('resources/js/index.js', 'public/js')
     .sass('resources/sass/showcase.scss', 'public/css')
     .sass('resources/sass/app.scss', 'public/css')
+    .sass('resources/sass/slick.scss', 'public/css')
     .sass('resources/sass/tailwind.scss', 'public/css').options({
     processCssUrls: false,
     postCss: [tailwindcss('./tailwind.config.js')]

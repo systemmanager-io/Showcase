@@ -15,39 +15,45 @@ export default class Demo extends React.Component {
                     <hr/>
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                            <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <Card>
                                     <CardBody>
                                         <h5>Demo Status Page</h5>
+                                        <hr/>
 
 
-                                        <a className="btn systemManagerButton systemManagerButton-border">Look at the
+                                        <a href="https://status.demo.systemmanager.io"
+                                           className="btn systemManagerButton systemManagerButton-border">Look at the
                                             status page</a>
 
                                     </CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                            <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <Card>
                                     <CardBody>
                                         <h5>Demo User Login</h5>
+                                        <hr/>
 
 
-                                        <a className="btn systemManagerButton systemManagerButton-border">Enter the demo
+                                        <a href="https://demo.systemmanager.io"
+                                           className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as a user</a>
 
                                     </CardBody>
                                 </Card>
                                 <br/>
                             </div>
-                            <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4">
+                            <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                                 <Card>
                                     <CardBody>
                                         <h5>Demo Admin Login</h5>
+                                        <hr/>
 
 
-                                        <a className="btn systemManagerButton systemManagerButton-border">Enter the demo
+                                        <a href="https://demo.systemmanager.io"
+                                           className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as an admin</a>
 
                                     </CardBody>

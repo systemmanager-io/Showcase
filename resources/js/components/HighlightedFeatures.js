@@ -1,6 +1,4 @@
 import * as React from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLock} from "@fortawesome/free-solid-svg-icons";
 
 export default class HighlightedFeatures extends React.Component {
 
@@ -12,7 +10,7 @@ export default class HighlightedFeatures extends React.Component {
                     <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                         <h3>Security</h3>
                         <hr />
-                        <p>Security is the most important thing for SystemManager! We use the latest technology to secure your data! Every problem found in the security of SystemManager will be dealt with in shot order!</p>
+                        <p>Security is the most important thing for SystemManager! We use the latest technology to secure your data! Every problem found in the security of SystemManager will be dealt with in short order!</p>
                         <br/>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-4">
