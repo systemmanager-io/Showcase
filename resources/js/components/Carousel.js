@@ -11,6 +11,7 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
             centerPadding: "60px",
             slidesToShow: 3,
             speed: 500,
+            autoPlay: true,
             responsive: [
                 {
                     breakpoint: 768,
