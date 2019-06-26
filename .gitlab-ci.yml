@@ -32,7 +32,6 @@ test:
 deploy_staging:
   stage: staging
   before_script:
-    - echo $CI_JOB_STAGE
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
     - chmod 700 ~/.ssh/id_rsa
@@ -40,7 +39,6 @@ deploy_staging:
     - ssh-add ~/.ssh/id_rsa
     - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
   script:
-    - echo "Deploying to staging."
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/staging/systemmanager_showcase; php artisan down --message "Deploying Update"'
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging/systemmanager_showcase
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/staging/systemmanager_showcase; php artisan up'
@@ -54,7 +52,6 @@ deploy_staging:
 deploy_prod:
   stage: production
   before_script:
-    - echo $CI_JOB_STAGE
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
     - chmod 700 ~/.ssh/id_rsa
@@ -62,7 +59,6 @@ deploy_prod:
     - ssh-add ~/.ssh/id_rsa
     - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
   script:
-    - echo "Deploy to production."
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/systemmanager_showcase; php artisan down --message "Deploying Update"'
     - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
     - ssh root@nl-ams1-01.genericdevelopment.nl 'cd /var/www/systemmanager_showcase; php artisan up'
