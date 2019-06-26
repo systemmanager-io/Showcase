@@ -8,7 +8,7 @@ export default class DevelopmentBubble extends React.Component {
 
     render() {
         return (
-            <div className="center-content stagingBubble">
+            <div className="center-content">
                 <br/>
                 <FontAwesomeIcon className="productWip" icon={faExclamationTriangle}/><br/><br/>
                 <a>This product has not been released yet!</a><br/>
