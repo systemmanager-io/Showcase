@@ -28,13 +28,9 @@ export default class Homepage extends React.Component {
                             <h2>Goal of SystemManager</h2>
                             <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes on the
                                 go. <br/>
-                                By using PHP, NodeJS, Java and Swift we built a WebPanel and a Android/iOS App to
-                                get status
-                                notifications and monitor your Servers<br/>
-                                SystemManager is completely customizable to suit your needs. You can turn off
-                                features you
-                                don't
-                                need.<br/>
+                                By using PHP, NodeJS, Java and Swift we built a WebPanel,  Android/iOS App and an Cross-platform desktop app to
+                                get status notifications and monitor your Servers<br/>
+                                SystemManager is completely customizable to suit your needs. You can turn off features you don't need.<br/>
                             </p>
 
                             <img onClick={this.openImageDialog} className="col-sm-12 col-md-9 col-9 col-lg-12" title="Screenshot Systemmanager"
