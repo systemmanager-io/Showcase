@@ -2,7 +2,7 @@ import * as React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faExclamationTriangle} from "@fortawesome/free-solid-svg-icons";
 
-export default class DevelopmentBubble extends React.Component {
+export default class StagingBubble extends React.Component {
 
 
     render() {
