@@ -1,0 +1,109 @@
+@import "variables";
+
+.showcase {
+    background: $primary;
+    color: white;
+    width: 100%;
+}
+
+.showcase-padding {
+    padding: 25px;
+}
+
+.center-content {
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    alignment: center;
+}
+
+.navbar-color {
+    background: $primary-dark;
+}
+
+.footer {
+    background: #22292f;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.top-buttons {
+    margin: 5px;
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5em;
+    background: $primary;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.top-buttons:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: $primary;
+}
+
+
+.white-text {
+    color: $white;
+}
+
+.navbar-brand-hover:hover {
+    color: $primary-light;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.stagingBubble {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 20px 25px;
+    bottom: 0;
+    transition: width 2s;
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+    .stagingBubble {
+        width: 100%;
+    }
+}
+
+.systemManagerButton {
+    margin: 5px;
+    padding: 10px 25px 10px 25px;
+    background: $primary;
+    color: #ffffff !important;
+}
+
+.systemManagerButton:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: $primary !important;
+}
+
+.systemManagerButton-border {
+    border-color: $primary;
+    color: #ffffff;
+}
+
+.systemManagerButton-border:hover {
+    border-color: $primary;
+    color: #ffffff;
+}
+
+.demoCredentials {
+    font-size: 1.5rem;
+}
+
+.productWip {
+    font-size: 2rem;
+}
+@media (max-width: 768px) {
+   .productWip {
+       font-size: 2rem;
+   }
+}
