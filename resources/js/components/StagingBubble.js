@@ -8,8 +8,8 @@ export default class DevelopmentBubble extends React.Component {
     render() {
         return (
             <div className="center-content">
-                <a><FontAwesomeIcon icon={faExclamationTriangle}/> You are viewing the staging area <FontAwesomeIcon icon={faExclamationTriangle}/></a><br />
-                <br/>
+                <a><FontAwesomeIcon icon={faExclamationTriangle}/> You are viewing the staging area <FontAwesomeIcon icon={faExclamationTriangle}/></a>
+                <br />
                 <a className="btn systemManagerButton" href="https://systemmanager.io">Looking for systemmanager.io?</a>
             </div>
         )
