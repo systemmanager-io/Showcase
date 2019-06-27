@@ -26,8 +26,8 @@ export default class HighlightedFeatures extends React.Component {
                     <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                         <h3>Free and Opensource</h3>
                         <hr/>
-                        <p>Soon™</p>
-                        {/* <p>Hate to pay for software? We do too! You can get SystemManager COMPLETELY for free! The only YOU have to PAY for is custom features! Or one of our paid packages! We want to clarify. ONCE a feature has been released to the CORE, it will NEVER turn into a paid feature!</p> */}
+                        <p>Hate that you need to pay for software? We do too! You can get SystemManager for free! The only things you will have to pay for are custom features or one of our paid packages! Which come with some extra handy features you might not need. For most people the core package will suffice.
+                        <br/><br/>When a feature comes to the core package it will never be a paid feature. That is a promise.</p>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                         <br/>
