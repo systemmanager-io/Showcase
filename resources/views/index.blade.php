@@ -10,8 +10,8 @@
     <meta property="og:description" content="The all in one server management system!">
     <meta property="og:url" content="https://systemmanager.io">
 
-    <meta property="author" content="Tigo Middelkoop">
-    <meta property="description" content="The all in one server management system">
+    <meta name="author" content="Tigo Middelkoop">
+    <meta name="description" content="The all in one server management system">
     <meta name="keywords" content="servermanagement, servers, management, monitoring, downtime, uptime, responsive, ">
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
