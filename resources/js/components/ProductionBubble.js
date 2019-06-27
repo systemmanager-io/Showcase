@@ -11,7 +11,7 @@ export default class DevelopmentBubble extends React.Component {
             <div className="center-content">
                 <br/>
                 <FontAwesomeIcon className="productWip" icon={faExclamationTriangle}/><br/><br/>
-                <a>This product has not been released yet!</a><br/>
+                <a>This is an unreleased product!</a><br/>
                 <a>Things are subjected to change!</a>
             </div>
         )
