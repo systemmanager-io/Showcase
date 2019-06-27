@@ -63,7 +63,7 @@ li {
     padding: 10px 15px;
     bottom: 0;
     transition: width 2s;
-    //width: 100%;
+    width: 350px;
 }
 
 @media (max-width: 768px) {
@@ -102,8 +102,8 @@ li {
 .productWip {
     font-size: 2.5rem;
 }
-//@media (max-width: 768px) {
-//    .productWip {
-//        font-size: 2.5rem;
-//    }
-//}
+@media (max-width: 768px) {
+   .productWip {
+       font-size: 2.5rem;
+   }
+}
