@@ -18,9 +18,10 @@ export default class DevelopmentBubble extends React.Component {
                     <div className="col-9">
                         <a>This is an unreleased product!</a><br/>
                         <a>Things are subjected to change!</a>
-                        <br/>
+                        
                     </div>
                 </div>
+                <br/>
             </div>
         )
     }
