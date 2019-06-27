@@ -17,7 +17,8 @@ export default class Layout extends React.Component {
 
                 <div className="center-content stagingBubble">
                     <ProductionBubble/>
-                    {location.hostname == "systemmanager.genericdevelopment.nl" ? `<hr/><StagingBubble/>` : null}
+                    {location.hostname == "systemmanager.genericdevelopment.nl" ? <hr/> : null}
+                    {location.hostname == "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
                     {location.hostname == "localhost" || location.hostname == "127.0.0.1" ? <DevelopmentBubble/> : null}
                 </div>
             </div>
