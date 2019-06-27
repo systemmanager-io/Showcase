@@ -35,41 +35,4 @@ export default class Documentation extends React.Component {
             </Fragment>
         )
     }
-
-}
-
-class welcome extends React.Component {
-
-    render() {
-        return (
-            <Fragment><h1>Welcome</h1></Fragment>
-        )
-    }
-}
-
-class page1 extends React.Component {
-
-    render() {
-        return (
-            <Fragment><h1>Page1</h1></Fragment>
-        )
-    }
-}
-
-class page2 extends React.Component {
-
-    render() {
-        return (
-            <Fragment><h1>Page2</h1></Fragment>
-        )
-    }
-}
-
-class page3 extends React.Component {
-
-    render() {
-        return (
-            <Fragment><h1>Page3</h1></Fragment>
-        )
-    }
 }

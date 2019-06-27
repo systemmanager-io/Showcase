@@ -1,8 +1,5 @@
 import * as React from 'react'
-import {Button, Card} from "reactstrap";
-import Slider from "react-slick";
 import SystemManagerShowcaseCarousel from "../components/Carousel";
-import CardBody from "reactstrap/es/CardBody";
 import {Link} from "react-router-dom";
 import {panelUrl} from "../config"
 import HighlightedFeatures from "../components/HighlightedFeatures";

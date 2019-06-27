@@ -1,6 +1,7 @@
 import * as React from "react";
 import Slider from "react-slick/lib";
 import {panelUrl} from "../config"
+import "./../sass/slick.scss"
 
 export default class SystemManagerShowcaseCarousel extends React.Component {
     render() {
@@ -9,7 +10,7 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
             centerMode: true,
             infinite: true,
             centerPadding: "60px",
-            slidesToShow: 1,
+            slidesToShow: 3,
             speed: 500,
             dots: true,
             autoPlay: true,
@@ -30,37 +31,30 @@ export default class SystemManagerShowcaseCarousel extends React.Component {
 
         return (
             <Slider {...settings}>
-                {/*<div>*/}
-                {/*    <img title="Screenshot Systemmanager"*/}
-                {/*         src={panelUrl + "/images/image.png"}/>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img title="Screenshot Systemmanager"*/}
-                {/*         src={panelUrl + "/images/image.png"}/>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img title="Screenshot Systemmanager"*/}
-                {/*         src={panelUrl + "/images/image.png"}/>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img title="Screenshot Systemmanager"*/}
-                {/*         src={panelUrl + "/images/image.png"}/>*/}
-                {/*</div>*/}
-                {/*<div>*/}
-                {/*    <img title="Screenshot Systemmanager"*/}
-                {/*         src={panelUrl + "/images/image.png"}/>*/}
-                {/*</div>*/}
                 <div>
-                    <img src="https://via.placeholder.com/400x300/"/>
+                    <img title="Screenshot Systemmanager"
+                         alt="Screenshot serverpage"
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/400x300/"/>
+                    <img title="Screenshot Systemmanager"
+                         alt="Screenshot serverpage"
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/400x300/"/>
+                    <img title="Screenshot Systemmanager"
+                         alt="Screenshot serverpage"
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/400x300/"/>
+                    <img title="Screenshot Systemmanager"
+                         alt="Screenshot serverpage"
+                         src={panelUrl + "/images/image.png"}/>
+                </div>
+                <div>
+                    <img title="Screenshot Systemmanager"
+                         alt="Screenshot serverpage"
+                         src={panelUrl + "/images/image.png"}/>
                 </div>
             </Slider>
         )

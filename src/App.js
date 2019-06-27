@@ -6,7 +6,6 @@ import Pricing from "./pages/Pricing";
 import Layout from "./layouts/Layout";
 import "./sass/app.scss"
 import "./sass/showcase.scss"
-import "./sass/slick.scss"
 import NotFound from "./pages/NotFound";
 import Documentation from "./pages/Documentation";
 

@@ -1,5 +1,4 @@
 import * as React from "react";
-import FormText from "reactstrap/es/FormText";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faExclamationTriangle} from "@fortawesome/free-solid-svg-icons";
 
@@ -15,9 +14,8 @@ export default class DevelopmentBubble extends React.Component {
                     
                     </div>
                     <div className="col-9">
-                        <a>This is an unreleased product!</a><br/>
-                        <a>Things are subjected to change!</a>
-                        
+                        <p>This is an unreleased product!<br/>
+                        Things are subjected to change!</p>
                     </div>
                 </div>
             </div>

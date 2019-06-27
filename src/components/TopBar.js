@@ -1,5 +1,4 @@
 import * as React from "react"
-import {Button} from "reactstrap";
 import {Link} from "react-router-dom";
 
 export default class SystemManagerShowcaseTopBar extends React.Component {
