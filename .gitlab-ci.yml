@@ -36,7 +36,7 @@ deploy_staging:
     - ssh-add ~/.ssh/id_rsa
     - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
   script:
-    - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging/systemmanager_showcase
+    - rsync -airzP "$PWD"/build/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging/systemmanager_showcase/public
   environment:
     name: staging
     url: https://systemmanager.genericdevelopment.nl
@@ -54,7 +54,7 @@ deploy_prod:
     - ssh-add ~/.ssh/id_rsa
     - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
   script:
-    - rsync -airzP "$PWD"/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
+    - rsync -airzP "$PWD"/build/* root@nl-ams1-01.genericdevelopment.nl:/var/www/systemmanager_showcase/
   environment:
     name: production
     url: https://systemmanager.io
