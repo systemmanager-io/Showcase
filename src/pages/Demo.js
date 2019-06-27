@@ -23,6 +23,7 @@ export default class Demo extends React.Component {
 
 
                                         <a href="https://status.demo.systemmanager.io"
+                                           title="See the demo status page"
                                            className="btn systemManagerButton systemManagerButton-border">Look at the
                                             status page</a>
 
@@ -44,6 +45,7 @@ export default class Demo extends React.Component {
                                         </div>
                                         <br/>
                                         <a href="https://demo.systemmanager.io"
+                                           title="See the demo panel as a user"
                                            className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as a user</a>
 
@@ -65,6 +67,7 @@ export default class Demo extends React.Component {
                                         </div>
                                         <br/>
                                         <a href="https://demo.systemmanager.io"
+                                           title="See the demo panel as a admin"
                                            className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as an admin</a>
 

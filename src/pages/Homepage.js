@@ -57,10 +57,10 @@ export default class Homepage extends React.Component {
                             <h2>Get Started</h2>
                             <p>Ready to manage your systems?</p>
                             <br/>
-                            <Link to="/demo" className="btn systemManagerButton top-buttons">Demo</Link>
-                            <Link to="/documentation/getstarted" className="btn systemManagerButton top-buttons">Get
+                            <Link title="Go to the demo" to="/demo" className="btn systemManagerButton top-buttons">Demo</Link>
+                            <Link title="Go to the documentation " to="/documentation/getstarted" className="btn systemManagerButton top-buttons">Get
                                 started</Link>
-                            <Link to="/documentation/about" className="btn systemManagerButton top-buttons">About
+                            <Link title="About the project "to="/documentation/about" className="btn systemManagerButton top-buttons">About
                                 The Project</Link>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ export default class StagingBubble extends React.Component {
             <div className="center-content">
                 <span><FontAwesomeIcon icon={faExclamationTriangle}/> You are viewing the staging area <FontAwesomeIcon icon={faExclamationTriangle}/></span>
                 <br />
-                <a className="btn systemManagerButton" href="https://systemmanager.io">Looking for systemmanager.io?</a>
+                <a title="Go to systemmanager.io" className="btn systemManagerButton" href="https://systemmanager.io">Looking for systemmanager.io?</a>
             </div>
         )
     }

@@ -15,7 +15,9 @@ export default class Footer extends React.Component {
                             <br/>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>There are a lot of options to monitor your server(s). Some of them do not have the features you want. SystemManager tries to solve this for you! By letting you decide what kind of features you want to enable, you can even turn off the automatic pinger. </p>
+                            <p>There are a lot of options to monitor your server(s). Some of them do not have the
+                                features you want. SystemManager tries to solve this for you! By letting you decide what
+                                kind of features you want to enable, you can even turn off the automatic pinger. </p>
                             <br/>
 
                         </div>
@@ -31,12 +33,13 @@ export default class Footer extends React.Component {
                                     <img style={{width: "15em"}}
                                          src={panelUrl + "/images/discord_logo.svg"}
                                          className=""
+                                         title="Click here to enter our discord for support"
                                          alt="Click here to enter our discord for support"/>
                                 </a>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12">
-                            <p style={{color: "#4a5158"}}>%license% Licensed | Copyright © 2019 Tigo Middelkoop</p>
+                            <p style={{color: "#4a5158"}}>MIT Licensed | Copyright © 2019 Tigo Middelkoop</p>
                         </div>
                     </div>
                 </div>

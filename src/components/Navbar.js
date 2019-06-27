@@ -22,21 +22,21 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
         return (
             <Navbar stick="true" className="navbar-color" color="#c2185b" dark expand="md">
                 <div className="container">
-                    <Link to="/" className="navbar-brand-hover navbar-brand">SystemManager</Link>
+                    <Link title="SystemManager" to="/" className="navbar-brand-hover navbar-brand">SystemManager</Link>
                     <NavbarToggler onClick={this.toggleNavbar.bind(this)}/>
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <Link className="nav-link" to="/">Home</Link>
+                                <Link title="Home page" className="nav-link" to="/">Home</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/demo">Demo</Link>
+                                <Link title="Demo page" className="nav-link" to="/demo">Demo</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/pricing">Pricing</Link>
+                                <Link title="Pricing page" className="nav-link" to="/pricing">Pricing</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/documentation">Documentation</Link>
+                                <Link title="Documentation page" className="nav-link" to="/documentation">Documentation</Link>
                             </NavItem>
                             {/*<NavItem>*/}
                             {/*    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>*/}
