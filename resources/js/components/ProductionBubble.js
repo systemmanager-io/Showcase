@@ -10,8 +10,11 @@ export default class DevelopmentBubble extends React.Component {
         return (
             <div className="center-content">
                 <br/>
-                <FontAwesomeIcon className="productWip col-3" icon={faExclamationTriangle}/>
-                <div className="row"><div className="col-9">
+                <div className="row">
+                <div className="col-3">
+                <FontAwesomeIcon className="productWip" icon={faExclamationTriangle}/>
+                </div>
+                <div className="col-9">
                 <a>This is an unreleased product!</a><br/>
                 <a>Things are subjected to change!</a>
                 </div></div>
