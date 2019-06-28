@@ -15,7 +15,7 @@ export default class NotFound extends React.Component {
                         <h1><FontAwesomeIcon style={{fontSize: "5rem"}} icon={faSadTear}/></h1>
                         <h1 style={{fontSize: "2.5rem"}}>Error 404</h1>
                         <h5>The page you requested was not found</h5>
-                        <Link to="/" className="btn systemManagerButton systemManagerButton-border">Go to the
+                        <Link to="/" title="Go back to homepage" className="btn systemManagerButton systemManagerButton-border">Go to the
                             homepage</Link>
                     </div>
                 </div>

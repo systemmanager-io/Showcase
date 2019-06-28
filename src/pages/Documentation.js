@@ -18,10 +18,10 @@ export default class Documentation extends React.Component {
 
                 <p>
 
-                    <Link to="/documentation/">Home</Link><br />
-                    <Link to="/documentation/project">Project</Link><br />
-                    <Link to="/documentation/panel">Panel</Link><br />
-                    <Link to="/documentation/daemon">Daemon</Link>
+                    <Link title="Home" to="/documentation/">Home</Link><br />
+                    <Link title="Project" to="/documentation/project">Project</Link><br />
+                    <Link title="Panel" to="/documentation/panel">Panel</Link><br />
+                    <Link title="Daemon" to="/documentation/daemon">Daemon</Link>
 
                 </p>
 
