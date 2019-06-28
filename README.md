@@ -1,4 +1,4 @@
-# This is the landing page for SystemManage
+# This is the landing page for SystemManager
 
 For all the teachers of mediacollege. this project continues from this point forward.
 this is an personal project and will recieve updates because of this
