@@ -1,4 +1,7 @@
-# This is the landing page for SystemManager
+# This is the landing page for SystemManage
+
+for all the teachers of mediacollege. this project continues from this point forward.
+this is an personal project and will recieve updates because of this
 
 The old code which was based on laravel can be found in the old_code branch.
 
