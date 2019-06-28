@@ -11,6 +11,7 @@ export default class Footer extends React.Component {
                         <div className="col-12 showcase-padding">
                             <img style={{width: "5rem"}}
                                  src={panelUrl + "/images/github-logo-transparent-bg.gif"}
+                                 title="Logo of systemmanager"
                                  alt="Logo of SystemManager"/>
                             <br/>
                         </div>
@@ -29,7 +30,7 @@ export default class Footer extends React.Component {
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
                             <div className="col-md-4">
-                                <a href="https://discord.gg/3QFPwgS">
+                                <a title="Discord Support Server" href="https://discord.gg/3QFPwgS">
                                     <img style={{width: "15em"}}
                                          src={panelUrl + "/images/discord_logo.svg"}
                                          className=""
