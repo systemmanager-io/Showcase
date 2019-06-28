@@ -17,11 +17,11 @@ export default class Documentation extends React.Component {
             <Fragment>
 
                 <p>
+
                     <Link to="/documentation/">Home</Link><br />
                     <Link to="/documentation/project">Project</Link><br />
                     <Link to="/documentation/panel">Panel</Link><br />
                     <Link to="/documentation/daemon">Daemon</Link>
-
 
                 </p>
 
