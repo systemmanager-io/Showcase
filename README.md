@@ -1,7 +1,10 @@
 # This is the landing page for SystemManage
 
-for all the teachers of mediacollege. this project continues from this point forward.
+For all the teachers of mediacollege. this project continues from this point forward.
 this is an personal project and will recieve updates because of this
+
+On another note: all the code you see here has been build an deployed by an CI to my webservers. You can ask for permission for said CI
+or by looking into the .gitlab-ci.yml
 
 The old code which was based on laravel can be found in the old_code branch.
 
