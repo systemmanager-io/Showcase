@@ -8,6 +8,8 @@ export default class Panel extends React.Component {
             <Fragment>
 
                 <h1>Getting Started</h1>
+                <h2>Required Extentions</h2>
+                <p>PHP-Curl Extension</p>
                 <li>Picking server OS</li>
                 <li>Dependencies</li>
                 <li>Download Files</li>
