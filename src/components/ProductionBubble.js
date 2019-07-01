@@ -7,7 +7,6 @@ export default class DevelopmentBubble extends React.Component {
 
     render() {
         return (
-            <div className="center-content">
                 <div className="row">
                     <div className="col-3">
                         <FontAwesomeIcon className="productWip" icon={faExclamationTriangle}/>
@@ -17,7 +16,6 @@ export default class DevelopmentBubble extends React.Component {
                         Things are subjected to change!</p>
                     </div>
                 </div>
-            </div>
         )
     }
 }
