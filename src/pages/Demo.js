@@ -44,7 +44,7 @@ export default class Demo extends React.Component {
                                             Password: password<br/>
                                         </div>
                                         <br/>
-                                        <a href="https://demo.systemmanager.io"
+                                        <a href="https://demo.systemmanager.io/login"
                                            title="See the demo panel as a user"
                                            className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as a user</a>
@@ -66,7 +66,7 @@ export default class Demo extends React.Component {
                                             Password: password<br/>
                                         </div>
                                         <br/>
-                                        <a href="https://demo.systemmanager.io"
+                                        <a href="https://demo.systemmanager.io/login"
                                            title="See the demo panel as a admin"
                                            className="btn systemManagerButton systemManagerButton-border">Enter the demo
                                             as an admin</a>
