@@ -20,13 +20,18 @@
     "tailwindcss": "^1.0.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "tailwind:css": "tailwind build src/sass/tailwind.src.css -c tailwind.js -o src/sass/tailwind.scss",
+    "start": "npm run tailwind:css && react-scripts start",
+    "startWINDOWS": "react-scripts start",
+    "build": "npm run tailwind:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "tailwindcss": {
+    "src": "./build/css/master.css"
   },
   "browserslist": {
     "production": [
