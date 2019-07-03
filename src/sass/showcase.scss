@@ -78,9 +78,21 @@ li {
     color: #ffffff !important;
 }
 
-.systemManagerButton:hover {
+.systemManagerButton-hover:hover {
     background: #ffffff;
     border-color: #ffffff;
+    color: $primary !important;
+}
+
+.notfound:hover {
+    background: $primary;
+    border-color: $primary;
+    color: #ffffff !important;
+}
+
+.notfound {
+    background: #ffffff;
+    border-color: $primary;
     color: $primary !important;
 }
 
