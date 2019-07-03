@@ -10,15 +10,12 @@ body {
     width: 100%;
 }
 
-.showcase-padding {
-    padding: 25px;
+.primary-light-text:hover {
+    color:$primary-light;
 }
 
-.center-content {
-    align-content: center;
-    text-align: center;
-    align-items: center;
-    alignment: center;
+.showcase-padding {
+    padding: 25px;
 }
 
 .navbar-color {
@@ -33,8 +30,6 @@ body {
 
 .top-buttons {
     margin: 5px;
-    padding: 10px 25px 10px 25px;
-    font-size: 1.5em;
     background: $primary;
     border-color: #ffffff;
     color: #ffffff;

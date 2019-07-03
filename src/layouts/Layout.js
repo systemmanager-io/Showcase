@@ -14,7 +14,7 @@ export default class Layout extends React.Component {
                 {this.props.children}
                 <Footer/>
 
-                <div className="center-content stagingBubble">
+                <div className="center-content stagingBubble" hidden={true}>
                     <ProductionBubble/>
                     {window.location.hostname === "systemmanager.genericdevelopment.nl" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? <hr/> : null}
                     {window.location.hostname === "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}

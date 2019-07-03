@@ -4,8 +4,9 @@ import Homepage from "./pages/Homepage";
 import Demo from "./pages/Demo";
 // import Pricing from "./pages/Pricing";
 import Layout from "./layouts/Layout";
-import "./sass/app.scss"
+// import "./sass/app.scss"
 import "./sass/showcase.scss"
+import "./sass/tailwind.scss"
 import NotFound from "./pages/NotFound";
 import Documentation from "./pages/Documentation";
 
