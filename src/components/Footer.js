@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {panelUrl} from "../config";
+import {Link} from "react-router-dom";
 
 export default class Footer extends React.Component {
 
@@ -23,9 +24,9 @@ export default class Footer extends React.Component {
 
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-3 ">
-                            <li>Github</li>
+                            <li><a href="https://github.com/systemmanager-io">Github</a></li>
                             <li>Support SystemManager</li>
-                            <li>Troubleshooting</li>
+                            <li><Link to="/documentation/troubeshooting">Troubleshooting</Link></li>
                             <br/>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">

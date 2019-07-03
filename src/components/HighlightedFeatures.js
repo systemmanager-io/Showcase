@@ -30,7 +30,7 @@ export default class HighlightedFeatures extends React.Component {
                     <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                         <h3>Free and Opensource</h3>
                         <hr/>
-                        <p>Hate that you need to pay for software? We do too! You can get SystemManager for free!
+                        <p>SystemManager is 100% free and licensed under a MIT license. The code of our products is opensource as well. <br /><br /> Even this website is opensource! You can find it on github!
                             {/*<br/><br/>When a feature comes to the core package it will never be a paid feature. That is a promise.*/}
                         </p>
                     </div>
