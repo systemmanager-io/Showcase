@@ -25,7 +25,10 @@ body {
 .footer {
     background: #22292f;
     color: #ffffff;
-    padding: 25px;
+}
+
+.navbar-animation {
+    transition: ease-in-out 2s;
 }
 
 .top-buttons {
@@ -39,11 +42,6 @@ body {
     background: #ffffff;
     border-color: #ffffff;
     color: $primary;
-}
-
-
-.white-text {
-    color: $white;
 }
 
 .navbar-brand-hover:hover {
@@ -104,10 +102,6 @@ li {
 .systemManagerButton-border:hover {
     border-color: $primary;
     color: #ffffff;
-}
-
-.demoCredentials {
-    font-size: 1.5rem;
 }
 
 .productWip {
