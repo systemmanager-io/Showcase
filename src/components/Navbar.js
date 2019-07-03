@@ -29,17 +29,17 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                     </button>
                 </div>
                 <div className="w-full lg:flex lg:items-center lg:w-auto hidden sm:hidden">
-                    <Link title="Home page"
+                    <Link title="Homepage   "
                           className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                           to="/">Home</Link>
-                    <Link title="Demo page"
+                    <Link title="Demos of SystemManager"
                           className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                           to="/demo">Demo</Link>
-                    <Link title="Documentation page"
+                    <Link title="Documentation of SystemManager"
                           className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                           to="/documentation">Documentation</Link>
-                    <Link title="Documentation page"
-                          className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent primary-light-text hover:bg-white mt-4 lg:mt-0"
+                    <Link title="Download SystemManager"
+                          className="inline-block px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent primary-light-text hover:bg-white mt-4 lg:mt-0"
                           to="/download">Download</Link>
                 </div>
             </nav>
