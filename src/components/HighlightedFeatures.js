@@ -5,48 +5,47 @@ export default class HighlightedFeatures extends React.Component {
     render() {
 
         return (
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <h3>Security</h3>
-                        <hr/>
-                        <p>Security is the most important thing for SystemManager! We use the latest technology to
-                            secure your data! Every problem found in the security of SystemManager will be dealt with in
-                            short order!</p>
-                        <br/>
-                    </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <h3>User Friendly</h3>
-                        <hr/>
-                        <p>No difficult interfaces! We crafted one beautiful panel to manage every server with! Do you
-                            miss something? Contact us! We will look if we are going to include it!</p>
-                    </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <h3>Native Apps</h3>
-                        <hr/>
-                        <p>As part of our software line up apps will follow! For Android and iOS! This way you won't
-                            have to use a third-party app! Every change in our app has been curated by us!</p>
-                    </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <h3>Free and Opensource</h3>
-                        <hr/>
-                        <p>SystemManager is 100% free and licensed under a MIT license. The code of our products is opensource as well. <br /><br /> Even this website is opensource! You can find it on github!
-                            {/*<br/><br/>When a feature comes to the core package it will never be a paid feature. That is a promise.*/}
-                        </p>
-                    </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <h3>Lightweight</h3>
-                        <hr/>
-                        <p>SystemManager and all its components are build to be fast and lightweight on your systems
-                            {/*<br/><br/>When a feature comes to the core package it will never be a paid feature. That is a promise.*/}
-                        </p>
-                    </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <br/>
-                    </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <br/>
-                    </div>
+            <div className="flex flex-wrap">
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <h3 className="text-2xl">Security</h3>
+                    <hr/>
+                    <p>Security is the most important thing for SystemManager! We use the latest technology to
+                        secure your data! Every problem found in the security of SystemManager will be dealt with in
+                        short order!</p>
+                    <br/>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <h3 className="text-2xl">User Friendly</h3>
+                    <hr/>
+                    <p>No difficult interfaces! We crafted one beautiful panel to manage every server with! Do you
+                        miss something? Contact us! We will look if we are going to include it!</p>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <h3 className="text-2xl">Native Apps</h3>
+                    <hr/>
+                    <p>As part of our software line up apps will follow! For Android and iOS! This way you won't
+                        have to use a third-party app! Every change in our app has been curated by us!</p>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <h3 className="text-2xl">Free and Opensource</h3>
+                    <hr/>
+                    <p>SystemManager is 100% free and licensed under a MIT license. The code of our products is
+                        opensource as well. <br/><br/> Even this website is opensource! You can find it on github!
+                        {/*<br/><br/>When a feature comes to the core package it will never be a paid feature. That is a promise.*/}
+                    </p>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <h3 className="text-2xl">Lightweight</h3>
+                    <hr/>
+                    <p>SystemManager and all its components are build to be fast and lightweight on your systems
+                        {/*<br/><br/>When a feature comes to the core package it will never be a paid feature. That is a promise.*/}
+                    </p>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <br/>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-4/12">
+                    <br/>
                 </div>
             </div>
         )

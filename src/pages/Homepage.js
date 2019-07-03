@@ -17,7 +17,7 @@ export default class Homepage extends React.Component {
         return (
             <Fragment>
                 <SystemManagerShowcaseTopBar/>
-                <div className="center-content">
+                <div className="text-center">
                     <div className="showcase-padding">
                         {/*Start of Description*/}
 

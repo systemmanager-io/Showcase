@@ -40,7 +40,7 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                           to="/documentation">Documentation</Link>
                     <Link title="Download SystemManager"
                           className="inline-block px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent primary-light-text hover:bg-white mt-4 lg:mt-0"
-                          to="/download">Download</Link>
+                          to="/documentation/getstarted">Get Started</Link>
                 </div>
             </nav>
         )
