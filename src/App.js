@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Route, Switch} from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Demo from "./pages/Demo";
-import Pricing from "./pages/Pricing";
+// import Pricing from "./pages/Pricing";
 import Layout from "./layouts/Layout";
 // import "./sass/app.scss"
 import "./sass/showcase.scss"
@@ -19,7 +19,7 @@ class App extends React.Component {
                 <Switch>
                     <Route exact path="/" component={Homepage}/>
                     <Route path="/demo" component={Demo}/>
-                    <Route path="/pricing" component={Pricing}/>
+                    {/*<Route path="/pricing" component={Pricing}/>*/}
                     <Route path="/documentation" component={Documentation}/>
                     {/*<Route exact path="/register" component={Homepage}/>*/}
                     {/*<Route exact path="/cart" component={Homepage}/>*/}

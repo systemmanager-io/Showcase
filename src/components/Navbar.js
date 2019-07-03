@@ -32,9 +32,9 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                             <NavItem>
                                 <Link title="Demo page" className="nav-link" to="/demo">Demo</Link>
                             </NavItem>
-                            <NavItem>
-                                <Link title="Pricing page" className="nav-link" to="/pricing">Pricing</Link>
-                            </NavItem>
+                            {/*<NavItem>*/}
+                            {/*    <Link title="Pricing page" className="nav-link" to="/pricing">Pricing</Link>*/}
+                            {/*</NavItem>*/}
                             <NavItem>
                                 <Link title="Documentation page" className="nav-link" to="/documentation">Documentation</Link>
                             </NavItem>
