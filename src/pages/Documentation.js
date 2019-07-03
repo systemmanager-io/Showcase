@@ -16,21 +16,25 @@ export default class Documentation extends React.Component {
         return (
             <Fragment>
 
-                <p>
+                <div className="flex flex-wrap">
+                    <div className="lg:w-2/12">
+                        <p>
+                            <Link className="px-5 py-5" title="Home" to="/documentation/">Home</Link><br/>
+                            <Link className="px-5 py-5" title="Project" to="/documentation/project">Project</Link><br/>
+                            <Link className="px-5 py-5" title="Panel" to="/documentation/panel">Panel</Link><br/>
+                            <Link className="px-5 py-5" title="Daemon" to="/documentation/daemon">Daemon</Link>
+                        </p>
+                    </div>
 
-                    <Link title="Home" to="/documentation/">Home</Link><br />
-                    <Link title="Project" to="/documentation/project">Project</Link><br />
-                    <Link title="Panel" to="/documentation/panel">Panel</Link><br />
-                    <Link title="Daemon" to="/documentation/daemon">Daemon</Link>
-
-                </p>
-
-                <Switch>
-                    <Route exact path={this.makeUrl('/')} component={Start}/>
-                    <Route path={this.makeUrl('/project')} component={Project}/>
-                    <Route path={this.makeUrl('/panel')} component={Panel}/>
-                    <Route path={this.makeUrl('/daemon')} component={Daemon}/>
-                </Switch>
+                    <div className="lg:w-10/12">
+                        <Switch>
+                            <Route exact path={this.makeUrl('/')} component={Start}/>
+                            <Route path={this.makeUrl('/project')} component={Project}/>
+                            <Route path={this.makeUrl('/panel')} component={Panel}/>
+                            <Route path={this.makeUrl('/daemon')} component={Daemon}/>
+                        </Switch>
+                    </div>
+                </div>
 
             </Fragment>
         )
