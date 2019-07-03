@@ -1,10 +1,4 @@
 import * as React from 'react'
-import {
-    Collapse,
-    Nav, Navbar,
-    NavbarToggler,
-    NavItem,
-} from "reactstrap";
 import {Link} from "react-router-dom";
 
 export default class SystemManagerShowcaseNavbar extends React.Component {
@@ -20,48 +14,35 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
 
     render() {
         return (
-            <Navbar stick="true" className="navbar-color" color="#c2185b" dark expand="md">
-                <div className="container">
-                    <Link title="SystemManager" to="/" className="navbar-brand-hover navbar-brand">SystemManager</Link>
-                    <NavbarToggler onClick={this.toggleNavbar.bind(this)}/>
-                    <Collapse isOpen={!this.state.collapsed} navbar>
-                        <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <Link title="Home page" className="nav-link" to="/">Home</Link>
-                            </NavItem>
-                            <NavItem>
-                                <Link title="Demo page" className="nav-link" to="/demo">Demo</Link>
-                            </NavItem>
-                            {/*<NavItem>*/}
-                            {/*    <Link title="Pricing page" className="nav-link" to="/pricing">Pricing</Link>*/}
-                            {/*</NavItem>*/}
-                            <NavItem>
-                                <Link title="Documentation page" className="nav-link" to="/documentation">Documentation</Link>
-                            </NavItem>
-                            {/*<NavItem>*/}
-                            {/*    <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>*/}
-                            {/*</NavItem>*/}
-                            {/*<UncontrolledDropdown nav inNavbar>*/}
-                            {/*    <DropdownToggle aria-haspopup={true} nav caret>*/}
-                            {/*        Options*/}
-                            {/*    </DropdownToggle>*/}
-                            {/*    <DropdownMenu right>*/}
-                            {/*        <DropdownItem>*/}
-                            {/*            Option 1*/}
-                            {/*        </DropdownItem>*/}
-                            {/*        <DropdownItem>*/}
-                            {/*            Option 2*/}
-                            {/*        </DropdownItem>*/}
-                            {/*        <DropdownItem divider/>*/}
-                            {/*        <DropdownItem>*/}
-                            {/*            Reset*/}
-                            {/*        </DropdownItem>*/}
-                            {/*    </DropdownMenu>*/}
-                            {/*</UncontrolledDropdown>*/}
-                        </Nav>
-                    </Collapse>
+            <nav className="flex items-center justify-between flex-wrap navbar-color p-4">
+                <div className="flex items-center flex-shrink-0 text-white mr-6">
+                    <Link title="SystemManager" to="/"
+                          className="navbar-brand-hover text-2xl navbar-brand">SystemManager</Link>
                 </div>
-            </Navbar>
+                <div className="block lg:hidden">
+                    <button
+                        className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                        <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"
+                             xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div className="">
+                    <Link title="Home page"
+                          className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                          to="/">Home</Link>
+                    <Link title="Demo page"
+                          className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                          to="/demo">Demo</Link>
+                    <Link title="Documentation page"
+                          className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                          to="/documentation">Documentation</Link>
+                    <Link title="Documentation page"
+                          className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent primary-light-text hover:bg-white mt-4 lg:mt-0"
+                          to="/download">Download</Link>
+                </div>
+            </nav>
         )
     }
 
