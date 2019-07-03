@@ -14,10 +14,10 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
 
     render() {
         return (
-            <nav className="flex items-center justify-between flex-wrap navbar-color p-4">
+            <nav className="flex items-center justify-between flex-wrap navbar-color p-3">
                 <div className="flex items-center flex-shrink-0 text-white mr-6">
                     <Link title="SystemManager" to="/"
-                          className="navbar-brand-hover text-xl navbar-brand">SystemManager</Link>
+                          className="navbar-brand-hover navbar-brand">SystemManager</Link>
                 </div>
                 <div className="block lg:hidden">
                     <button
