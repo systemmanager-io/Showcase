@@ -1,7 +1,5 @@
 import * as React from 'react'
-import SystemManagerShowcaseCarousel from "../components/Carousel";
 import {Link} from "react-router-dom";
-import {panelUrl} from "../config"
 import HighlightedFeatures from "../components/HighlightedFeatures";
 import {Fragment} from "react";
 import SystemManagerShowcaseTopBar from "../components/TopBar";
