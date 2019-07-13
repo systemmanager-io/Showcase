@@ -1,7 +1,5 @@
 import * as React from 'react'
-import SystemManagerShowcaseCarousel from "../components/Carousel";
 import {Link} from "react-router-dom";
-import {panelUrl} from "../config"
 import HighlightedFeatures from "../components/HighlightedFeatures";
 import {Fragment} from "react";
 import SystemManagerShowcaseTopBar from "../components/TopBar";
@@ -17,8 +15,8 @@ export default class Homepage extends React.Component {
         return (
             <Fragment>
                 <SystemManagerShowcaseTopBar/>
-                <div className="text-center">
-                    <div className="showcase-padding">
+                <div className="text-center ">
+                    <div className="showcase-padding object-center items-center justify-center content-center">
                         {/*Start of Description*/}
 
                         <h2 className="text-3xl">Goal of SystemManager</h2>
@@ -30,10 +28,9 @@ export default class Homepage extends React.Component {
                             SystemManager is completely customizable to suit your needs. You can turn off features you
                             don't need.<br/>
                         </p>
-
-                        <img onClick={this.openImageDialog} alt="Screenshot of SystemManager"
-                             className="w-1/2" title="Screenshot Systemmanager"
-                             src={panelUrl + "/images/image.png"}/>
+                        {/*<img onClick={this.openImage/ialog} alt="Screenshot of SystemManager"*/}
+                        {/*     // className="w-auto h-64" title="Screenshot Systemmanager"*/}
+                        {/*     // src={panelUrl + "/images/image.png"}/>*/}
                     </div>
                     {/*Start of why systemmanager*/}
                     <div className="showcase showcase-padding">
@@ -49,7 +46,7 @@ export default class Homepage extends React.Component {
                         <h2 className="text-3xl">Screenshots</h2>
                         <p>Here you can see some screenshots of SystemManager</p>
                         {/*<div className="container">*/}
-                        <SystemManagerShowcaseCarousel/>
+                        {/*<SystemManagerShowcaseCarousel/>*/}
                         {/*</div>*/}
                     </div>
                     {/*Get Started and more thingies*/}
