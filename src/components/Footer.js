@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
                                 <img style={{width: "5rem"}}
                                      className="center-content"
                                      src={panelUrl + "/images/github-logo-transparent-bg.gif"}
-                                     title="Logo of systemmanager"
+                                     title="Logo of Systemmanager"
                                      alt="Logo of SystemManager"/>
                                 <br/>
                             </div>
