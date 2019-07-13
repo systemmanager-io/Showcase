@@ -11,11 +11,11 @@ export default class Footer extends React.Component {
                     <div className="flex flex-wrap">
                         <div className="w-full">
                             <div className="center-content items-center showcase-padding">
-                                <img style={{width: "5rem"}}
-                                     className="center-content"
-                                     src={panelUrl + "/images/github-logo-transparent-bg.gif"}
-                                     title="Logo of Systemmanager"
-                                     alt="Logo of SystemManager"/>
+                                {/*<img style={{width: "5rem"}}*/}
+                                {/*     className="center-content"*/}
+                                {/*     src={panelUrl + "/images/github-logo-transparent-bg.gif"}*/}
+                                {/*     title="Logo of Systemmanager"*/}
+                                {/*     alt="Logo of SystemManager"/>*/}
                                 <br/>
                             </div>
                         </div>
