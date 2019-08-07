@@ -77,11 +77,10 @@ export default class HighlightedFeatures extends React.Component {
                 </div>
 
                 <div className="w-full md:w-6/12 lg:w-4/12">
-                    <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4"
-                 </div>
-                                    </div>
+                    <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4"></div>
+                </div>
                 <div className="w-full md:w-6/12 lg:w-4/12">
-                    <br/>
+                    <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4"></div>
                 </div>
             </div>
         )
