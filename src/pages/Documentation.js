@@ -4,6 +4,7 @@ import {Link, Route, Switch} from "react-router-dom";
 import Daemon from "./Documentation/Daemon";
 import Panel from "./Documentation/Panel";
 import Project from "./Documentation/Project";
+import Core from "./Documentation/Core";
 import Start from "./Documentation/panel/Start";
 
 export default class Documentation extends React.Component {
@@ -21,6 +22,7 @@ export default class Documentation extends React.Component {
                         <p>
                             <Link className="px-5 py-5" title="Home" to="/documentation/">Home</Link><br/>
                             <Link className="px-5 py-5" title="Project" to="/documentation/project">Project</Link><br/>
+                            <Link className="px-5 py-5" title="Core" to="/documentation/project">Core</Link><br/>
                             <Link className="px-5 py-5" title="Panel" to="/documentation/panel">Panel</Link><br/>
                             <Link className="px-5 py-5" title="Daemon" to="/documentation/daemon">Daemon</Link>
                         </p>
@@ -30,6 +32,7 @@ export default class Documentation extends React.Component {
                         <Switch>
                             <Route exact path={this.makeUrl('/')} component={Start}/>
                             <Route path={this.makeUrl('/project')} component={Project}/>
+                            <Route path={this.makeUrl('/core')} component={Core}/>
                             <Route path={this.makeUrl('/panel')} component={Panel}/>
                             <Route path={this.makeUrl('/daemon')} component={Daemon}/>
                         </Switch>
