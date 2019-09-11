@@ -77,7 +77,15 @@ export default class HighlightedFeatures extends React.Component {
                 </div>
 
                 <div className="w-full md:w-6/12 lg:w-4/12">
-                    <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4"></div>
+                                        <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4">
+                        <div className="px-6 py-4">
+                            <div className="text-black font-bold text-2xl mb-2">API First</div>
+                            <hr/>
+                            <p className="text-gray-700 text-base">SystemManager and its panel are API first. The panel has been build using the API to let you build your own panel too!
+                            </p>
+                        </div>
+                    </div>
+                    <br/>
                 </div>
                 <div className="w-full md:w-6/12 lg:w-4/12">
                     <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4"></div>
