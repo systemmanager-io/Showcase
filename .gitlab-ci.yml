@@ -39,7 +39,7 @@ deploy_staging:
     - rsync -airzP "$PWD"/build/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging_systemmanager_showcase/
   environment:
     name: staging
-    url: https://systemmanager.genericdevelopment.nl
+    url: https://staging.systemmanager.io
   only:
     - master
 
