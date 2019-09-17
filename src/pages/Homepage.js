@@ -24,7 +24,7 @@ export default class Homepage extends React.Component {
                         <h2 className="text-3xl">Goal of SystemManager</h2>
                         <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes on the
                             go. <br/>
-                            By using PHP, NodeJS, Java and Swift we built a WebPanel, Android/iOS App and an
+                            By using NodeJS, Java and Swift we built the Core, webpanel, Android/iOS App and an
                             Cross-platform desktop app to
                             get status notifications and monitor your Servers<br/>
                             SystemManager is completely customizable to suit your needs. You can turn off features you
@@ -55,10 +55,10 @@ export default class Homepage extends React.Component {
                     {/*Get Started and more thingies*/}
                     <div className="showcase showcase-padding">
                         <h2 className="text-3xl">Get Started</h2>
-                        <p>Ready to manage your systems?</p>
+                        <p>Ready to manage your servers?</p>
                         <div className="p-4">
                             <Link title="Go to the demo" to="/demo"
-                                  className="bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Demo</Link>
+                                  className="capitalize bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Demo</Link>
                             <Link title="Go to the documentation " to="/documentation/getstarted"
                                   className="bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Get
                                 started</Link>
