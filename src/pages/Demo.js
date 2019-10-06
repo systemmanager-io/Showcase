@@ -10,7 +10,8 @@ export default class Demo extends React.Component {
                 <SystemManagerShowcaseTopBar/>
                 <div className="text-center showcase-padding">
                     <h2>Not convinced yet? Use our demo to see what it can!</h2>
-                    <h5>This demo has certain features disabled and stuff hidden</h5>
+                    <h5 hidden>This demo has certain features disabled and stuff hidden</h5>
+                    <h5>The SystemManager demo will be reset per 10 minutes</h5>
                     <hr/>
                     <div className="flex flex-wrap">
                         <div className="w-full md:w-6/12 lg:w-4/12">
