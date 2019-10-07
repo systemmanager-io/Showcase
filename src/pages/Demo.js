@@ -11,9 +11,9 @@ export default class Demo extends React.Component {
             <Fragment>
                 <SystemManagerShowcaseTopBar/>
                 <div className="text-center showcase-padding">
-                    <h2 className="text-2xl">Not convinced yet? Use our demo to see what it can!</h2>
-                    <h5><Icons.FontAwesomeIcon className="text-blue-700" icon={faInfoCircle}/> This demo has certain features disabled and stuff hidden</h5>
-                    <p className="text-info"><Icons.FontAwesomeIcon className="text-blue-700" icon={faInfoCircle}/> The SystemManager demo will be reset per 10 minutes</p>
+                    <h2 className="text-2xl">Not convinced yet? Use our demo to see what it can do!</h2>
+                    <h5><Icons.FontAwesomeIcon className="text-blue-700" icon={faInfoCircle}/> The demo has stuff disabled to prevent misuse of the demo</h5>
+                    <p className="text-info"><Icons.FontAwesomeIcon className="text-blue-700" icon={faInfoCircle}/> The Demo will be reset every 10-30 minutes depending on how much the demo has been used.</p>
                     <hr/>
                     <div className="flex flex-wrap">
                         <div className="w-full md:w-6/12 lg:w-4/12">
