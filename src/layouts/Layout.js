@@ -1,26 +1,36 @@
 import * as React from 'react'
 import SystemManagerShowcaseNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import StagingBubble from "../components/StagingBubble";
-import DevelopmentBubble from "../components/DevelopmentBubble";
-import ProductionBubble from "../components/ProductionBubble";
+import SystemManagerShowcaseTopBar from "../components/TopBar";
+import {withRouter} from "react-router-dom";
 
-export default class Layout extends React.Component {
+class Layout extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {path: window.location.pathname};
+    }
+    componentDidUpdate(prevProps) {
+        if (this.props.location !== prevProps.location) {
+            this.onRouteChanged();
+        }
+    }
+
+    onRouteChanged() {
+        this.setState({path: window.location.pathname});
+    }
+
     render() {
+        console.log(this.state);
         return (
             <div>
+                {this.state.path === "/" ? <SystemManagerShowcaseTopBar/> : null}
                 <SystemManagerShowcaseNavbar/>
-                {/*<SystemManagerShowcaseTopBar/>*/}
                 {this.props.children}
                 <Footer/>
 
-                <div className="center-content stagingBubble" hidden={true}>
-                    <ProductionBubble/>
-                    {window.location.hostname === "systemmanager.genericdevelopment.nl" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? <hr/> : null}
-                    {window.location.hostname === "systemmanager.genericdevelopment.nl" ? <StagingBubble/> : null}
-                    {window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" ? <DevelopmentBubble/> : null}
-                </div>
             </div>
         )
     }
 }
+
+export default withRouter(props => <Layout {...props} />);

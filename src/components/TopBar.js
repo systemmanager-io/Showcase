@@ -6,9 +6,10 @@ export default class SystemManagerShowcaseTopBar extends React.Component {
 
         return (
             <div>
-                <div className="text-center showcase showcase-padding">
-                    <h1 className="text-4xl align-content-center">SystemManager Monitoring Software</h1>
-                    <h5 className="text-xl align-content-center">The all in one server management system!</h5>
+                <div className="align-content-center h-screen showcase-background showcase showcase-padding">
+                    <h1 className="lg:text-6xl md:text-6xl text-4xl">SystemManager</h1>
+                    <h2 className="text-xl lg:text-2xl">Monitoring Software</h2>
+                    <h5 className="text-1xl">The all in one server management system!</h5>
                     <div hidden={window.location.pathname !== "/"}>
                         <br/>
                         <Link title="Go to the demo" to="/demo"

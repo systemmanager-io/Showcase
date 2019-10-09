@@ -1,5 +1,4 @@
 import * as React from 'react'
-import SystemManagerShowcaseTopBar from "../components/TopBar";
 import {Fragment} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSadTear} from "@fortawesome/free-regular-svg-icons";
@@ -9,7 +8,6 @@ export default class NotFound extends React.Component {
     render() {
         return (
             <Fragment>
-                <SystemManagerShowcaseTopBar/>
                 <div className="text-center">
                     <div className="showcase-padding" style={{height: 100 + "%"}}>
                         <h1><FontAwesomeIcon style={{fontSize: "5rem"}} icon={faSadTear}/></h1>

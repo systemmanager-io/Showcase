@@ -2,7 +2,6 @@ import * as React from 'react';
 import {Link} from "react-router-dom";
 import HighlightedFeatures from "../components/HighlightedFeatures";
 import {Fragment} from "react";
-import SystemManagerShowcaseTopBar from "../components/TopBar";
 
 export default class Homepage extends React.Component {
 
@@ -14,7 +13,6 @@ export default class Homepage extends React.Component {
 
         return (
             <Fragment>
-                <SystemManagerShowcaseTopBar/>
                 <div className="text-center ">
                     <div className="showcase-padding object-center items-center justify-center content-center">
                         {/*Start of Description*/}

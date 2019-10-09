@@ -4,7 +4,7 @@ import * as Icons from "@fortawesome/react-fontawesome";
 import {faInfoCircle} from "@fortawesome/free-solid-svg-icons";
 
 
-export default class Demo extends React.Component {
+export default class Plugins extends React.Component {
     render() {
         return (
             <Fragment>
