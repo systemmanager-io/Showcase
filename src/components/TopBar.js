@@ -16,8 +16,7 @@ export default class SystemManagerShowcaseTopBar extends React.Component {
                               className="bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Demo</Link>
                         <Link title="Get started"
                               to="/documentation/getstarted"
-                              className="bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Get
-                            started</Link>
+                              className="bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Documentation</Link>
                         <br/>
                         <br/>
                     </div>
