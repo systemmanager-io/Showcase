@@ -5,10 +5,6 @@ import {Fragment} from "react";
 
 export default class Homepage extends React.Component {
 
-    openImageDialog() {
-        console.log("yeet");
-    }
-
     render() {
 
         return (
