@@ -1,11 +1,6 @@
 import * as React from "react";
 import {Fragment} from "react";
 import {Link, Route, Switch} from "react-router-dom";
-import Daemon from "./Documentation/Daemon";
-import Panel from "./Documentation/Panel";
-import Project from "./Documentation/Project";
-import Core from "./Documentation/Core";
-import Start from "./Documentation/panel/Start";
 
 export default class Documentation extends React.Component {
 

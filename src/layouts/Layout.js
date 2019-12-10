@@ -9,6 +9,7 @@ class Layout extends React.Component {
         super(props);
         this.state = {path: window.location.pathname};
     }
+
     componentDidUpdate(prevProps) {
         if (this.props.location !== prevProps.location) {
             this.onRouteChanged();
@@ -23,9 +24,14 @@ class Layout extends React.Component {
         console.log(this.state);
         return (
             <div>
-                {this.state.path === "/" ? <SystemManagerShowcaseTopBar/> : null}
-                <SystemManagerShowcaseNavbar/>
-                {this.props.children}
+
+                <div className="z-20">
+                    <SystemManagerShowcaseNavbar/>
+                    <div className="z-0">
+                    {this.state.path === "/" ? <SystemManagerShowcaseTopBar/> : null}
+                </div>
+                    {this.props.children}
+                </div>
                 <Footer/>
 
             </div>
