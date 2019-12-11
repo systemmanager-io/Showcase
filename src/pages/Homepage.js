@@ -3,6 +3,11 @@ import {Link} from "react-router-dom";
 import HighlightedFeatures from "../components/HighlightedFeatures";
 import {Fragment} from "react";
 
+// By using NodeJS, GraphQL, Java, C++ (or C#), Unity and Swift we built a WebPanel, VR App, Android/iOS App and desktop apps to
+                            // get status notifications and monitor your Servers<br/>
+                            // SystemManager is completely customizable to suit your needs. You can turn off features you
+                            // don't need.<br/>
+                            
 export default class Homepage extends React.Component {
 
     render() {
@@ -17,10 +22,6 @@ export default class Homepage extends React.Component {
                         <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes <br/>
                         by notifying you when a server goes down or when when a server load gets to high.
                         You can monitor almost everything, putting tresholds on the load is one of these things you can monitor
-                            // By using NodeJS, GraphQL, Java, C++ (or C#), Unity and Swift we built a WebPanel, VR App, Android/iOS App and desktop apps to
-                            // get status notifications and monitor your Servers<br/>
-                            // SystemManager is completely customizable to suit your needs. You can turn off features you
-                            // don't need.<br/>
                         </p>
                         {/*<img onClick={this.openImage/ialog} alt="Screenshot of SystemManager"*/}
                         {/*     // className="w-auto h-64" title="Screenshot Systemmanager"*/}
