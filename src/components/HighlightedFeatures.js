@@ -13,10 +13,7 @@ export default class HighlightedFeatures extends React.Component {
                             <hr/>
                             <p className="text-gray-700 text-base">Security is the most important thing for
                                 SystemManager! We use the latest technology to
-                                secure your data! Every problem found in the security of SystemManager will be dealt
-                                with in
-                                short order!</p>
-                            <br/>
+                                secure your data!</p>
                         </div>
                     </div>
                     <br/>
