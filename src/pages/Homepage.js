@@ -14,7 +14,7 @@ export default class Homepage extends React.Component {
 
         return (
             <Fragment>
-                <div className="text-center ">
+                <div className="text-center">
                     <div className="showcase-padding object-center items-center justify-center content-center">
                         {/*Start of Description*/}
 
