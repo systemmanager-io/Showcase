@@ -9,7 +9,6 @@ cache:
 stages:
   - build
   - test
-  - staging
   - production
 
 build:
@@ -25,24 +24,6 @@ test:
   stage: test
   script:
     - echo "No tests are defined yet"
-
-deploy_staging:
-  stage: staging
-  before_script:
-    - mkdir -p ~/.ssh
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-    - chmod 700 ~/.ssh/id_rsa
-    - eval "$(ssh-agent -s)"
-    - ssh-add ~/.ssh/id_rsa
-    - ssh-keyscan -H 'nl-ams1-01.genericdevelopment.nl' >> ~/.ssh/known_hosts
-  script:
-    - rsync -airzP "$PWD"/build/* root@nl-ams1-01.genericdevelopment.nl:/var/www/staging_systemmanager_showcase/
-  environment:
-    name: staging
-    url: https://staging.systemmanager.io
-  only:
-    - master
-
 
 deploy_prod:
   stage: production
