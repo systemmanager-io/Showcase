@@ -16,7 +16,7 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <nav className="flex items-center justify-between flex-wrap navbar-color p-4 lg:p-3">
+                <nav className="flex items-center justify-between flex-wrap navbar p-4 lg:p-3">
                     <div className="flex items-center flex-shrink-0 text-white mr-6">
                         <Link title="SystemManager" to="/"
                               className="navbar-brand-hover navbar-brand">SystemManager</Link>
