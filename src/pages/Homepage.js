@@ -18,7 +18,7 @@ export default class Homepage extends React.Component {
                     <div className="showcase-padding object-center items-center justify-center content-center">
                         {/*Start of Description*/}
 
-                        <h2 className="text-3xl">What is SystemManager?</h2>
+                        <h2 style="color: #10529f; font-family: Muli, bold;" className="text-3xl">What is SystemManager?</h2>
                         <p>SystemManager is a software solution to monitor your dedicated boxes and VPSes <br/>
                         by notifying you when a server goes down or when when a server load gets to high.
                         You can monitor almost everything, putting tresholds on the load is one of these things you can monitor
