@@ -9,6 +9,7 @@ cache:
 stages:
   - build
   - test
+  - staging
   - production
 
 build:
