@@ -46,8 +46,8 @@ export default class Homepage extends React.Component {
                     </div>
                     {/*Get Started and more thingies*/}
                     <div className="showcase showcase-padding">
-                        <h2 className="text-3xl">Get Started with SystemManager</h2>
-                        <p>Ready to manage your systems?</p>
+                        <h2 className="text-3xl">Ready to manage your systems?</h2>
+                        <p>Get Started with SystemManager</p>
                         <div className="p-4">
                             <Link title="Go to the demo" to="/demo"
                                   className="bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Demo</Link>
