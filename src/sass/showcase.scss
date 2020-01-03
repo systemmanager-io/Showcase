@@ -1,8 +1,7 @@
 @import "variables";
 
-.test {
-    color: #10529f; 
-    font-family: Muli, bold;
+.section-titles {
+    color: #10529f;
 }
 
 body {
@@ -29,14 +28,15 @@ body {
 //}
 
 .showcase-padding {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5rem 25px;
+}
+
+.footer {
+    padding: 25px;
 }
 
 .navbar {
-    background: $primary-dark;
+    background: $primary;
     border-bottom: 1px solid;
     border-color: #ffffff;
 }

@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            <div className="footer text-center showcase-padding">
+            <div className="footer text-center footer">
                 <div className="container mx-auto max-w-5xl">
                     <div className="flex flex-wrap">
                         <div className="w-full">
@@ -47,7 +47,7 @@ export default class Footer extends React.Component {
                             </a>
                         </div>
                         <div className="w-full">
-                            <p style={{color: "#4a5158"}}>MIT Licensed | Copyright © 2019 Tigo Middelkoop</p>
+                            <p style={{color: "#4a5158"}}>MIT Licensed | Copyright © 2019 - 2020 Tigo Middelkoop</p>
                         </div>
                     </div>
                 </div>

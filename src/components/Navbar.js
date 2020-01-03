@@ -36,9 +36,9 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                         <Link title="Homepage"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                               to="/">Home</Link>
-                        <Link title="Demos of SystemManager"
-                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
-                              to="/demo">Demo</Link>
+                        {/*<Link title="Demos of SystemManager"*/}
+                        {/*      className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"*/}
+                        {/*      to="/demo">Demo</Link>*/}
                         <a title="Documentation of SystemManager"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                               href="https://docs.systemmanager.io">Documentation</a>
