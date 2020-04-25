@@ -13,7 +13,7 @@ export default class Demo extends React.Component {
                     <h5><Icons.FontAwesomeIcon className="text-blue-700" icon={faInfoCircle}/> The demo has stuff disabled to prevent abuse of the demo</h5>
                     <p className="text-info"><Icons.FontAwesomeIcon className="text-blue-700" icon={faInfoCircle}/> The Demo will be reset every 10-30 minutes depending on how much the demo has been used.</p>
                     <hr/>
-                    <div className="flex flex-wrap">
+                    <div className="flex flex-wrap">z
                         <div className="w-full md:w-6/12 lg:w-4/12">
                             <div className="bg-white rounded overflow-hidden shadow-lg lg:m-4">
                                 <div className="px-6 py-4">

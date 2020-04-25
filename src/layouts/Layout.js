@@ -24,7 +24,7 @@ class Layout extends React.Component {
         return (
             <div>
 
-                <div className="z-20">
+                <div className="z-20 text-white">
                     <SystemManagerShowcaseNavbar/>
                     <div className="z-0">
                     {this.state.path === "/" ? <SystemManagerShowcaseTopBar/> : null}

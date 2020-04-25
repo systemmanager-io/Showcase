@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {Link} from "react-router-dom";
 
-export default class SystemManagerShowcaseNavbar extends React.Component {
+export default class Navbar extends React.Component {
 
 
     state = {
@@ -45,9 +45,12 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                         <a title="Forum of SystemManager"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                               href="https://forum.systemmanager.io">Forum</a>
-                        <Link title="Plugins for SystemManager"
+                        <a title="Plugins for SystemManager"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
-                              to="/plugins">Plugins <span className="text-xs text-pink-400">(Coming Soon)</span></Link>
+                              href="https://systemmanager.cloud/plugins">Plugins <span className="text-xs text-blue-400">(Coming Soon)</span></a>
+                        <a title="Hosting for SystemManager"
+                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                              href="https://systemmanager.cloud/">Cloud <span className="text-xs text-blue-400">(Coming Soon)</span></a>
 
                         <a title="Download SystemManager"
                               className="inline-block px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent primary-light-text hover:bg-white mt-4 lg:mt-0"

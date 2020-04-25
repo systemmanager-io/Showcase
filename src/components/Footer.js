@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {panelUrl} from "../config";
-import {Link} from "react-router-dom";
 
 export default class Footer extends React.Component {
 
@@ -9,16 +8,7 @@ export default class Footer extends React.Component {
             <div className="footer text-center footer">
                 <div className="container mx-auto max-w-5xl">
                     <div className="flex flex-wrap">
-                        <div className="w-full">
-                            <div className="center-content items-center showcase-padding">
-                                {/*<img style={{width: "5rem"}}*/}
-                                {/*     className="center-content"*/}
-                                {/*     src={panelUrl + "/images/github-logo-transparent-bg.gif"}*/}
-                                {/*     title="Logo of Systemmanager"*/}
-                                {/*     alt="Logo of SystemManager"/>*/}
-                                <br/>
-                            </div>
-                        </div>
+                        <div className="w-full p-5">{/*Reserved for future logo*/}</div>
                         <div className="w-full lg:w-6/12 text-sm">
                             <p>There are a lot of options to monitor your server(s). Some of them do not have the
                                 features you want. SystemManager tries to solve this for you! By letting you decide
@@ -29,20 +19,22 @@ export default class Footer extends React.Component {
 
                         </div>
                         <div className="w-full lg:w-4/12 text-sm">
-                            <li className="primary-light-text"><a href="https://github.com/systemmanager-io">Github</a>
+                            <li className="primary-light-text"><a href="https://github.com/systemmanager-io">GitHub</a>
                             </li>
-                            <li className="primary-light-text">Support SystemManager</li>
-                            <li className="primary-light-text"><Link
-                                to="/documentation/troubeshooting">Troubleshooting</Link></li>
+                            <li className="primary-light-text"><a
+                                href="https://docs.systemmanager.io/">Documentation</a></li>
+
+                            <li className="text-gray-700"><a
+                                href="https://docs.systemmanager.io/">Patreon</a></li>
                             <br/>
                         </div>
-                        <div className="w-full lg:w-2/12 content-center">
+                        <div className="w-full lg:w-2/12 items-center justify-center">
                             <a title="Discord Support Server" href="https://discord.gg/3QFPwgS">
-                                <div className="w-9/12 lg:w-full self-center">
+                                <div className="lg:w-full self-center w-full">
                                     <img
-                                         src={panelUrl + "/images/discord_logo.svg"}
-                                         title="Click here to enter our discord for support"
-                                         alt="Click here to enter our discord for support"/>
+                                        src={panelUrl + "/images/discord_logo.svg"}
+                                        title="Click here to enter our discord for support"
+                                        alt="Click here to enter our discord for support"/>
                                 </div>
                             </a>
                         </div>
