@@ -28,14 +28,13 @@ export default class Footer extends React.Component {
                                 href="https://docs.systemmanager.io/">Patreon</a></li>
                             <br/>
                         </div>
-                        <div className="w-full lg:w-2/12 items-center justify-center">
-                            <a title="Discord Support Server" href="https://discord.gg/3QFPwgS">
-                                <div className="lg:w-full self-center w-full">
-                                    <img
-                                        src={panelUrl + "/images/discord_logo.svg"}
-                                        title="Click here to enter our discord for support"
-                                        alt="Click here to enter our discord for support"/>
-                                </div>
+                        <div className="w-full lg:w-2/12">
+                            <a title="Discord Support Server"
+                               href="https://discord.gg/3QFPwgS">
+                                <img
+                                    src={panelUrl + "/images/discord_logo.svg"}
+                                    title="Click here to enter our discord for support"
+                                    alt="Click here to enter our discord for support"/>
                             </a>
                         </div>
                         <div className="w-full">

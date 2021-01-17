@@ -32,7 +32,7 @@ export default class Navbar extends React.Component {
                         </button>
                     </div>
                     <div
-                        className={this.state.collapsed ? "w-full lg:flex lg:items-center lg:w-auto hidden" : "w-full lg:flex lg:items-center navbar-animation lg:w-auto"}>
+                        className={this.state.collapsed ? "w-full lg:flex lg:items-center lg:w-auto hidden" : "w-full lg:flex lg:items-center navbar-animation lg:w-auto transition duration-500"}>
                         <Link title="Homepage"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                               to="/">Home</Link>
@@ -42,15 +42,15 @@ export default class Navbar extends React.Component {
                         <a title="Documentation of SystemManager"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
                               href="https://docs.systemmanager.io">Documentation</a>
-                        <a title="Forum of SystemManager"
-                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
-                              href="https://forum.systemmanager.io">Forum</a>
+                        {/*<a title="Forum of SystemManager"*/}
+                        {/*      className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"*/}
+                        {/*      href="https://forum.systemmanager.io">Forum</a>*/}
                         <a title="Plugins for SystemManager"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
-                              href="https://systemmanager.cloud/plugins">Plugins <span className="text-xs text-blue-400">(Coming Soon)</span></a>
+                              href="https://cloud.systemmanager.io/plugins">Plugins <span className="text-xs text-blue-400">(Coming Soon)</span></a>
                         <a title="Hosting for SystemManager"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
-                              href="https://systemmanager.cloud/">Cloud <span className="text-xs text-blue-400">(Coming Soon)</span></a>
+                              href="https://cloud.systemmanager.io/">Cloud <span className="text-xs text-blue-400">(Coming Soon)</span></a>
 
                         <a title="Download SystemManager"
                               className="inline-block px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent primary-light-text hover:bg-white mt-4 lg:mt-0"

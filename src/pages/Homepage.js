@@ -38,7 +38,7 @@ export default class Homepage extends React.Component {
                         <h2 className="section-titles font-bold text-3xl">Screenshots</h2>
                         <p className="font-light ">Screenshots of the WebPanel built by us</p>
                         {/*<div className="container">*/}
-                        <p className="font-light text-xl mt-5">The WebPanel is still a Work In Progress.</p>
+                        <p className="font-light text-xl mt-5">The Webpanel is still a Work In Progress.</p>
                         {/*<SystemManagerShowcaseCarousel/>*/}
                         {/*</div>*/}
                     </div>
@@ -46,7 +46,7 @@ export default class Homepage extends React.Component {
                     <div className="showcase showcase-padding text-white">
                         <h2 className="text-3xl font-bold">Ready to manage your systems?</h2>
                         <p className="font-light pb-4">Get Started with SystemManager</p>
-                        <div className="p-4 flex flex-wrap text-center w-full">
+                        <div className="p-4 flex flex-wrap justify-center w-full">
                             {/*<Link title="Go to the demo" to="/demo"*/}
                             {/*      className="font-light bg-transparent top-buttons py-3 px-6 border text-2xl hover:border-transparent rounded">Demo</Link>*/}
                             <div className={"mb-5 lg:mb-0"}>
@@ -57,7 +57,7 @@ export default class Homepage extends React.Component {
                             <div>
                                 <a title="About the project" href="https://docs.systemmanager.io/project/about.html"
                                    className=" bg-transparent top-buttons whitespace-no-wrap font-light py-2 px-4 rounded border sm:border-l-0 sm:rounded-l-none text-2xl hover:border-transparent">About
-                                    The Project</a>
+                                    this project</a>
                             </div>
                         </div>
                     </div>
