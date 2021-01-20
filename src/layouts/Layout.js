@@ -1,5 +1,6 @@
 import * as React from 'react'
 import SystemManagerShowcaseNavbar from "../components/Navbar";
+import Footer_tigotech from "../components/Footer_tigotech";
 import Footer from "../components/Footer";
 import SystemManagerShowcaseTopBar from "../components/TopBar";
 import {withRouter} from "react-router-dom";
@@ -32,6 +33,7 @@ class Layout extends React.Component {
                     {this.props.children}
                 </div>
                 <Footer/>
+                <Footer_tigotech/>
 
             </div>
         )
