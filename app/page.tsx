@@ -4,10 +4,10 @@ export default function Page() {
   return (
     <main>
       <div className="text-center text-black">
-        <div className="showcase-padding object-center items-center justify-center content-center">
+        <div className="py-16 object-center items-center justify-center content-center">
           {/*Start of Description*/}
 
-          <h2 className="section-titles font-bold text-3xl">What is SystemManager?</h2>
+          <h2 className="text-primary font-bold text-3xl">What is SystemManager?</h2>
           <p className="font-light">SystemManager is a software solution to monitor and manage your
             dedicated servers, VPSes. SystemManager will notify you when errors and warnings happens on
             these machines.</p>
@@ -15,7 +15,7 @@ export default function Page() {
             these machines are down or not and will report to you if that ever happens.</p>
         </div>
         {/*Start of why systemmanager*/}
-        <div className="showcase showcase-padding">
+        <div className="bg-primary py-16">
           <h2 className="font-bold text-3xl text-white">Why SystemManager?</h2>
           <p className="font-light text-white">Why you should choose for SystemManager</p>
           <br/>
@@ -24,8 +24,8 @@ export default function Page() {
 
         </div>
         {/*A few Screenshots*/}
-        <div className="showcase-padding">
-          <h2 className="section-titles font-bold text-3xl">Screenshots</h2>
+        <div className="py-16">
+          <h2 className="text-primary font-bold text-3xl">Screenshots</h2>
           <p className="font-light ">Screenshots of the WebPanel built by us</p>
           {/*<div className="container">*/}
           <p className="font-light text-xl mt-5">The Webpanel is still a Work In Progress.</p>
@@ -33,7 +33,7 @@ export default function Page() {
           {/*</div>*/}
         </div>
         {/*Get Started and more thingies*/}
-        <div className="showcase showcase-padding text-white">
+        <div className="bg-primary py-16 text-white">
           <h2 className="text-3xl font-bold">Ready to manage your systems?</h2>
           <p className="font-light pb-4">Get Started with SystemManager</p>
           <div className="p-4 flex flex-wrap justify-center w-full">

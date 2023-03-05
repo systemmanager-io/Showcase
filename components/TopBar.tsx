@@ -7,7 +7,7 @@ export default class SystemManagerShowcaseTopBar extends React.Component {
 
         return (
             <div>
-                <div className="align-content-center showcase-background showcase text-white showcase-padding">
+                <div className="align-content-center bg-primary text-white bg-primary py-16 px-8">
                     <h1 className="lg:text-6xl md:text-6xl font-bold text-4xl">SystemManager</h1>
                     <h2 className="text-xl lg:text-2xl font-light">Server Management and Monitoring</h2>
                     <h5 className="text-1xl font-light">The all-in-one server management system!</h5>

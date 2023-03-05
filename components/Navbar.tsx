@@ -17,10 +17,10 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <nav className="flex items-center justify-between flex-wrap navbar p-4 lg:p-3">
-                    <div className="flex items-center flex-shrink-0 text-white mr-6">
+                <nav className="flex items-center justify-between flex-wrap bg-primary border-b p-4 lg:p-3">
+                    <div className="flex items-center flex-shrink-0 text-white ml-2 mr-6">
                         <Link title="SystemManager" href="/"
-                              className="navbar-brand-hover navbar-brand">SystemManager</Link>
+                              className="hover:text-primary-light">SystemManager</Link>
                     </div>
                     <div className="block lg:hidden">
                         <button
@@ -35,22 +35,22 @@ export default class SystemManagerShowcaseNavbar extends React.Component {
                     <div
                         className={this.state.collapsed ? "w-full lg:flex lg:items-center lg:w-auto hidden" : "w-full lg:flex lg:items-center navbar-animation lg:w-auto transition duration-500"}>
                         <Link title="Homepage"
-                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary-light mr-4"
                               href="/">Home</Link>
                         {/*<Link title="Demos of SystemManager"*/}
                         {/*      className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"*/}
                         {/*      to="/demo">Demo</Link>*/}
                         <a title="Documentation of SystemManager"
-                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary-light mr-4"
                               href="https://docs.systemmanager.io">Documentation</a>
                         {/*<a title="Forum of SystemManager"*/}
-                        {/*      className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"*/}
+                        {/*      className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary-light mr-4"*/}
                         {/*      href="https://forum.systemmanager.io">Forum</a>*/}
                         <a title="Plugins for SystemManager"
-                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary-light mr-4"
                               href="https://cloud.systemmanager.io/plugins">Plugins <span className="text-xs text-blue-400">(Coming Soon)</span></a>
                         <a title="Hosting for SystemManager"
-                              className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
+                              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary-light mr-4"
                               href="https://cloud.systemmanager.io/">Cloud <span className="text-xs text-blue-400">(Coming Soon)</span></a>
 
                         <a title="Download SystemManager"
