@@ -1,5 +1,6 @@
+"use client";
+
 import * as React from 'react';
-import {panelUrl} from "../config";
 
 export default class Footer extends React.Component {
 
@@ -32,7 +33,7 @@ export default class Footer extends React.Component {
                             <a title="Discord Support Server"
                                href="https://discord.gg/3QFPwgS">
                                 <img
-                                    src={panelUrl + "/images/discord_logo.svg"}
+                                    src={"https://docs.systemmanager.io/images/discord_logo.svg"}
                                     title="Click here to enter our discord for support"
                                     alt="Click here to enter our discord for support"/>
                             </a>

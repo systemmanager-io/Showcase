@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function Pill(props) {
+export default function Pill(props: any) {
 
     let type;
 

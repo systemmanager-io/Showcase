@@ -1,9 +1,11 @@
+"use client";
+
 import React from "react";
-import Pill from "./pill";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import Pill from "./pill";
 
-export default function Footer_tigotech() {
+export default function FooterTigotech() {
 
     // This might not be the best option, I want to look for a better option.
 

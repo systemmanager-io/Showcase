@@ -1,7 +1,8 @@
-import * as React from 'react'
-import {Link} from "react-router-dom";
+"use client";
 
-export default class Navbar extends React.Component {
+import * as React from 'react'
+import Link from "next/link";
+export default class SystemManagerShowcaseNavbar extends React.Component {
 
 
     state = {
@@ -18,7 +19,7 @@ export default class Navbar extends React.Component {
             <React.Fragment>
                 <nav className="flex items-center justify-between flex-wrap navbar p-4 lg:p-3">
                     <div className="flex items-center flex-shrink-0 text-white mr-6">
-                        <Link title="SystemManager" to="/"
+                        <Link title="SystemManager" href="/"
                               className="navbar-brand-hover navbar-brand">SystemManager</Link>
                     </div>
                     <div className="block lg:hidden">
@@ -35,7 +36,7 @@ export default class Navbar extends React.Component {
                         className={this.state.collapsed ? "w-full lg:flex lg:items-center lg:w-auto hidden" : "w-full lg:flex lg:items-center navbar-animation lg:w-auto transition duration-500"}>
                         <Link title="Homepage"
                               className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"
-                              to="/">Home</Link>
+                              href="/">Home</Link>
                         {/*<Link title="Demos of SystemManager"*/}
                         {/*      className="block mt-4 lg:inline-block lg:mt-0 text-white primary-light-text mr-4"*/}
                         {/*      to="/demo">Demo</Link>*/}
