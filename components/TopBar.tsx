@@ -8,8 +8,8 @@ export default class SystemManagerShowcaseTopBar extends React.Component {
         return (
             <div>
                 <div className="align-content-center bg-primary text-white bg-primary py-16 px-8">
-                    <h1 className="lg:text-6xl md:text-6xl font-bold text-4xl">SystemManager</h1>
-                    <h1 className="font-bold text-sm">
+                    <h1 className="jetbrains lg:text-6xl md:text-6xl font-bold text-4xl">SystemManager</h1>
+                    <h1 className="jetbrains font-bold text-sm">
                         <span className={"font-light"}>Includes</span> FleetManager for Kubernetes
                     </h1>
 
