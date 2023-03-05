@@ -9,9 +9,16 @@ export default class SystemManagerShowcaseTopBar extends React.Component {
             <div>
                 <div className="align-content-center bg-primary text-white bg-primary py-16 px-8">
                     <h1 className="lg:text-6xl md:text-6xl font-bold text-4xl">SystemManager</h1>
-                    <h2 className="text-xl lg:text-2xl font-light">Server Management and Monitoring</h2>
-                    <h5 className="text-1xl font-light">The all-in-one server management system!</h5>
-                    <div className="mt-6 flex flex-wrap">
+                    <h1 className="font-bold text-sm">
+                        <span className={"font-light"}>Includes</span> FleetManager for Kubernetes
+                    </h1>
+
+
+                    <div className={"hidden"}>
+                        <h2 className="text-xl lg:text-2xl mt-4">Server Management and Monitoring</h2>
+                        <h5 className="text-1xl">The all-in-one server management system!</h5>
+                    </div>
+                    <div className="hidden mt-6 flex flex-wrap">
                         <div className={"mb-5 lg:mb-0"}>
                             <a title="Get started"
                                href="https://docs.systemmanager.io/"
